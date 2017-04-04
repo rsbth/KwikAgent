@@ -1,0 +1,881 @@
+16/03 23:25:00 FINE server.InfoManager|Log for game 14 started
+************************************************************
+* Log for game 14 started
+************************************************************
+
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-1 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12285)
+-------------------------------------------
+Client 1 stays 4 - 5 on good hotel                              score = 1065
+Client 2 stays 3 - 4 on good hotel                              score = 1088
+Client 3 stays 3 - 4 on good hotel   E1 day 3                   score = 1218
+Client 4 stays 3 - 5 on good hotel   E1 day 3                   score = 1304
+Client 5 stays 1 - 3 on good hotel            E2 day 2          score = 1202
+Client 6 stays 1 - 4 on cheap hotel  E1 day 1          E3 day 3 score = 1220
+Client 7 stays 1 - 3 on good hotel   E1 day 1                   score = 1181
+Client 8 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1410
+Total score = 9688 utility = 9688 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 228    	Bound: 2576
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-1 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 0 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 1000.0000)) at auction 0 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 2 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 3 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 1000.0000)) at auction 0 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 1000.0000)) at auction 1 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 6 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 1000.0000)) at auction 1 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 7 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 8 for price 54.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 54.0000)) at auction 2 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 9 for price 122.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 122.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 10 for price 138.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 138.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 11 for price 83.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 83.0000)) at auction 2 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 12 for price 118.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 118.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 13 for price 180.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 180.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 14 for price 220.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 220.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 15 for price 108.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 108.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is selling 1 of type 17 allocation=1 for price 103.59672344435765
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 103.5967)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 18 for price 50.00493418963025 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 50.0049)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 21 for price 50.004076104489485 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 50.0041)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is selling 3 of type 22 allocation=1 for price 165.97206223939568
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 165.9721)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 26 for price 50.004315164800836 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 50.0043)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-1 is selling 3 of type 27 allocation=1 for price 184.8386013529847
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 184.8386)) at auction 6 day 4
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-1
+inflights((3-3|0)(1-1|0)(3-3|0)(1-1|0)),outflights((0-0|0)(2-2|0)(3-3|0)(3-3|0))
+good hotel((1-0|0)(2-0|0)(2-0|0)(1-0|0)),cheap hotel((2-0|0)(2-0|0)(3-0|0)(2-0|0))
+wrestling((2-2|0)(1-2|0)(2-0|0)(0-0|0)),amusement((0-0|0)(1-0|0)(1-4|0)(0-0|0)),museum((0-0|0)(0-0|0)(1-0|0)(1-4|0))
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-2 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11908)
+-------------------------------------------
+Client 1 stays 4 - 5 on good hotel   E1 day 4                   score = 1197
+Client 2 stays 3 - 4 on good hotel                              score = 1078
+Client 3 stays 3 - 4 on good hotel   E1 day 3                   score = 1219
+Client 4 stays 1 - 3 on good hotel   E1 day 1                   score = 1216
+Client 5 stays 1 - 3 on good hotel   E1 day 1                   score = 1267
+Client 6 stays 2 - 4 on cheap hotel  E1 day 2 E2 day 3          score = 1274
+Client 7 stays 4 - 5 on good hotel                              score = 854
+Client 8 stays 4 - 5 on good hotel                              score = 772
+Total score = 8877 utility = 8877 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 186    	Bound: 2859
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-2 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 0 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 1000.0000)) at auction 0 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 2 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 3 of type 3 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((3 1000.0000)) at auction 0 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 1 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 3 of type 6 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((3 1000.0000)) at auction 1 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 3 of type 7 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((3 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 9 for price 102.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 102.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 10 for price 105.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 105.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 12 for price 87.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 87.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 13 for price 183.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 183.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 14 for price 177.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 177.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 3 of type 15 for price 145.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((3 145.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 17 for price 50.007316932849335 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0073)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is selling 3 of type 18 allocation=1 for price 137.40430159155613
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-3 137.4043)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 19 for price 50.00557804420749 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0056)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is selling 4 of type 20 allocation=0 for price 177.5940440033781
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 177.5940)) at auction 5 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-2 is selling 1 of type 22 allocation=1 for price 124.19556215460244
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 124.1956)) at auction 5 day 3
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-2
+inflights((2-2|0)(1-1|0)(2-2|0)(3-3|0)),outflights((0-0|0)(2-2|0)(3-3|0)(3-3|0))
+good hotel((0-0|0)(1-0|0)(1-0|0)(0-0|0)),cheap hotel((2-0|0)(2-0|0)(2-0|0)(3-0|0))
+wrestling((2-2|0)(1-0|0)(1-4|0)(1-0|0)),amusement((0-4|0)(0-0|0)(1-2|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-0|0)(0-0|0))
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-3 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11790)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1138
+Client 2 stays 1 - 2 on good hotel   E1 day 1                   score = 1169
+Client 3 stays 4 - 5 on good hotel   E1 day 4                   score = 1281
+Client 4 stays 3 - 4 on good hotel   E1 day 3                   score = 1198
+Client 5 stays 2 - 4 on good hotel   E1 day 2 E2 day 3          score = 1389
+Client 6 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1522
+Client 7 stays 1 - 4 on cheap hotel           E2 day 2          score = 1070
+Client 8 stays 4 - 5 on good hotel                              score = 848
+Total score = 9615 utility = 9615 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 213    	Bound: 2974
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-3 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 4 of type 0 for price 1000.0 allocation=4 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((4 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 1000.0000)) at auction 0 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 2 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 1000.0000)) at auction 0 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 1000.0000)) at auction 1 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 4 of type 6 for price 1000.0 allocation=4 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((4 1000.0000)) at auction 1 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 7 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 8 for price 64.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 64.0000)) at auction 2 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 9 for price 103.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 103.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 10 for price 91.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 91.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 3 of type 12 for price 124.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((3 124.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 13 for price 188.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 188.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 3 of type 14 for price 231.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((3 231.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 15 for price 117.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 117.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 16 allocation=3 for price 116.40305982046374
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 116.4031)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 17 allocation=1 for price 127.53338919038843
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 127.5334)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 18 for price 50.00971331909997 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0097)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 19 for price 50.006778944138 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0068)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 2 of type 21 allocation=2 for price 164.04320973117387
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-2 164.0432)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 22 for price 50.008781616516956 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0088)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 26 for price 50.01075845438077 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0108)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 2 of type 27 allocation=0 for price 103.32733493853175
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-2 103.3273)) at auction 6 day 4
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-3
+inflights((4-4|0)(1-1|0)(1-1|0)(2-2|0)),outflights((2-2|0)(0-0|0)(4-4|0)(2-2|0))
+good hotel((1-0|0)(1-0|0)(1-0|0)(0-0|0)),cheap hotel((3-0|0)(2-0|0)(3-0|0)(2-0|0))
+wrestling((3-4|0)(1-2|0)(1-0|0)(1-0|0)),amusement((0-0|0)(2-4|0)(1-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(1-0|0)(0-2|0))
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-4 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12173)
+-------------------------------------------
+Client 1 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1373
+Client 2 stays 1 - 2 on good hotel                              score = 1092
+Client 3 stays 1 - 2 on good hotel   E1 day 1                   score = 1250
+Client 4 stays 3 - 4 on good hotel   E1 day 3                   score = 1242
+Client 5 stays 3 - 4 on good hotel                              score = 1104
+Client 6 stays 4 - 5 on good hotel   E1 day 4                   score = 1198
+Client 7 stays 2 - 4 on cheap hotel           E2 day 3          score = 1135
+Client 8 stays 2 - 3 on good hotel                              score = 947
+Total score = 9341 utility = 9341 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 185    	Bound: 2981
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-4 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 0 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 1 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 1000.0000)) at auction 0 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 2 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 3 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 0 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 1000.0000)) at auction 1 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 5 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 1 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 4 of type 6 for price 1000.0 allocation=4 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((4 1000.0000)) at auction 1 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 7 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 9 for price 90.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 90.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 10 for price 97.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 97.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 12 for price 95.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 95.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 13 for price 185.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 185.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 14 for price 234.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 234.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 15 for price 96.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 96.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 16 for price 50.00511303907079 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 50.0051)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 18 for price 50.00491446132196 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 50.0049)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 3 of type 19 allocation=1 for price 167.02738936394115
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 167.0274)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 21 for price 50.00939758151257 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 50.0094)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 22 allocation=1 for price 198.31787673275338
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 198.3179)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 2 of type 24 allocation=0 for price 106.40537495019686
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-2 106.4054)) at auction 6 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 4 of type 25 allocation=0 for price 190.86804418816345
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 190.8680)) at auction 6 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 26 for price 50.01254404629732 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 50.0125)) at auction 6 day 3
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-4
+inflights((3-3|0)(2-2|0)(2-2|0)(1-1|0)),outflights((2-2|0)(1-1|0)(4-4|0)(1-1|0))
+good hotel((0-0|0)(1-0|0)(1-0|0)(0-0|0)),cheap hotel((3-0|0)(2-0|0)(3-0|0)(1-0|0))
+wrestling((2-0|0)(0-0|0)(1-0|0)(1-4|0)),amusement((0-0|0)(1-0|0)(1-2|0)(0-0|0)),museum((0-2|0)(0-4|0)(1-0|0)(0-0|0))
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-5 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11802)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel                              score = 1109
+Client 2 stays 4 - 5 on good hotel   E1 day 4                   score = 1276
+Client 3 stays 2 - 3 on good hotel                              score = 1093
+Client 4 stays 3 - 5 on good hotel   E1 day 3                   score = 1281
+Client 5 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1404
+Client 6 stays 1 - 2 on good hotel   E1 day 1                   score = 1014
+Client 7 stays 2 - 5 on cheap hotel                             score = 900
+Client 8 stays 4 - 5 on cheap hotel                             score = 700
+Total score = 8777 utility = 8777 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 165    	Bound: 2532
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-5 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 0 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 1 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 0 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 2 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 0 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 1 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 5 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 1000.0000)) at auction 1 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 5 of type 7 for price 1000.0 allocation=5 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((5 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 9 for price 115.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 115.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 10 for price 110.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 110.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 11 for price 98.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 98.0000)) at auction 2 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 12 for price 105.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 105.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 13 for price 146.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 146.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 14 for price 187.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 187.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 3 of type 15 for price 120.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((3 120.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 16 for price 50.010975570891965 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 50.0110)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 18 for price 50.01189933857193 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 50.0119)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 19 for price 50.004179965258174 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 50.0042)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 21 allocation=0 for price 199.22156160021436
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 199.2216)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 3 of type 23 allocation=1 for price 169.1994435124226
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-3 169.1994)) at auction 5 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 24 allocation=0 for price 141.36920245491496
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 141.3692)) at auction 6 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 4 of type 25 allocation=0 for price 111.75303307880299
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 111.7530)) at auction 6 day 2
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-5
+inflights((2-2|0)(2-2|0)(2-2|0)(2-2|0)),outflights((2-2|0)(1-1|0)(0-0|0)(5-5|0))
+good hotel((0-0|0)(1-0|0)(1-0|0)(2-0|0)),cheap hotel((2-0|0)(1-0|0)(2-0|0)(3-0|0))
+wrestling((1-0|0)(0-0|0)(2-0|0)(1-0|0)),amusement((0-0|0)(0-2|0)(0-0|0)(1-4|0)),museum((0-2|0)(0-4|0)(0-0|0)(0-0|0))
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-6 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12574)
+-------------------------------------------
+Client 1 stays 4 - 5 on good hotel                              score = 1120
+Client 2 stays 2 - 4 on good hotel   E1 day 2                   score = 1131
+Client 3 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1465
+Client 4 stays 1 - 3 on good hotel            E2 day 2          score = 1282
+Client 5 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1404
+Client 6 stays 3 - 5 on cheap hotel           E2 day 4          score = 1111
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1088
+Client 8 stays 1 - 4 on cheap hotel           E2 day 2 E3 day 3 score = 1347
+Total score = 9948 utility = 9948 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 208    	Bound: 2883
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-6 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 0 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 1000.0000)) at auction 0 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 2 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 0 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 1 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 6 for price 1000.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 1 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 4 of type 7 for price 1000.0 allocation=4 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((4 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 8 for price 68.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 68.0000)) at auction 2 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 9 for price 104.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 104.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 10 for price 120.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 120.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 11 for price 82.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 82.0000)) at auction 2 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 12 for price 78.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 78.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 13 for price 231.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 231.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 14 for price 146.0 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 146.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 15 for price 111.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 111.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 16 for price 50.01118192180495 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0112)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 17 for price 50.0121767923297 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0122)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 3 of type 18 allocation=1 for price 168.6094729444128
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-3 168.6095)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 19 for price 50.01232061228025 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0123)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 21 for price 50.012593782203055 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 50.0126)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 23 allocation=2 for price 169.67357767352263
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 169.6736)) at auction 5 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 1 of type 26 allocation=1 for price 171.36522255215522
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-1 171.3652)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 27 allocation=0 for price 143.16191738565885
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 143.1619)) at auction 6 day 4
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-6
+inflights((3-3|0)(1-1|0)(2-2|0)(2-2|0)),outflights((0-0|0)(2-2|0)(2-2|0)(4-4|0))
+good hotel((1-0|0)(1-0|0)(2-0|0)(1-0|0)),cheap hotel((2-0|0)(3-0|0)(2-0|0)(3-0|0))
+wrestling((1-0|0)(1-0|0)(1-4|0)(1-0|0)),amusement((0-0|0)(3-0|0)(0-0|0)(2-4|0)),museum((0-0|0)(0-0|0)(1-2|0)(0-2|0))
+
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-7 is awaiting solver
+16/03 23:25:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12474)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1239
+Client 2 stays 1 - 2 on good hotel   E1 day 1                   score = 1257
+Client 3 stays 1 - 2 on good hotel                              score = 1126
+Client 4 stays 3 - 4 on good hotel                              score = 1090
+Client 5 stays 3 - 4 on good hotel   E1 day 3                   score = 1204
+Client 6 stays 3 - 5 on good hotel            E2 day 4          score = 1330
+Client 7 stays 1 - 3 on good hotel            E2 day 2          score = 1151
+Client 8 stays 1 - 4 on cheap hotel           E2 day 2 E3 day 3 score = 1289
+Total score = 9686 utility = 9686 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 203    	Bound: 3179
+-------------------------------------------
+16/03 23:25:00 FINEST classic.DummyAgent|Agent Dummy-7 finished solving
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 5 of type 0 for price 1000.0 allocation=5 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((5 1000.0000)) at auction 0 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 2 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 1000.0000)) at auction 0 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 4 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 1000.0000)) at auction 1 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 5 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 1000.0000)) at auction 1 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 6 for price 1000.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 1000.0000)) at auction 1 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 7 for price 1000.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 1000.0000)) at auction 1 day 5
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 8 for price 43.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 43.0000)) at auction 2 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 9 for price 101.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 101.0000)) at auction 2 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 10 for price 95.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 95.0000)) at auction 2 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 4 of type 12 for price 94.0 allocation=4 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((4 94.0000)) at auction 3 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 13 for price 137.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 137.0000)) at auction 3 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 14 for price 192.0 allocation=3 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 192.0000)) at auction 3 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 15 for price 75.0 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 75.0000)) at auction 3 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 16 for price 50.016108152181125 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 50.0161)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 4 of type 17 allocation=0 for price 122.31116220695506
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 122.3112)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 18 for price 50.00761651837292 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0076)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 19 allocation=0 for price 181.0716797150759
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 181.0717)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 4 of type 20 allocation=0 for price 144.57466705102934
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 144.5747)) at auction 5 day 1
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 21 for price 50.01009504784303 allocation=2 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 50.0101)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 23 for price 50.01398819327036 allocation=1 own=0
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0140)) at auction 5 day 4
+16/03 23:25:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 1 of type 26 allocation=1 for price 121.25961154129524
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-1 121.2596)) at auction 6 day 3
+16/03 23:25:00 FINE classic.DummyAgent|DummyAgent Dummy-7
+inflights((5-5|0)(0-0|0)(3-3|0)(0-0|0)),outflights((3-3|0)(1-1|0)(3-3|0)(1-1|0))
+good hotel((1-0|0)(1-0|0)(1-0|0)(0-0|0)),cheap hotel((4-0|0)(1-0|0)(3-0|0)(1-0|0))
+wrestling((2-0|0)(0-4|0)(1-0|0)(0-2|0)),amusement((0-4|0)(2-0|0)(0-0|0)(1-0|0)),museum((0-0|0)(0-0|0)(1-2|0)(0-0|0))
+
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 192.4568)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0057)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 194.1565)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0136)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 157.2140)) at auction 4 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 50.0068)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-3 156.2574)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0095)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 50.0137)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 50.0132)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-3 183.3380)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0149)) at auction 4 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 50.0130)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-2 138.7361)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 50.0130)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 171.1790)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 50.0087)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 50.0076)) at auction 5 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 143.8120)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 166.1830)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0074)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 189.3385)) at auction 5 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 50.0157)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0129)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 50.0098)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-1 117.1262)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-1 167.1782)) at auction 6 day 3
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 191.1619)) at auction 6 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-2 178.9669)) at auction 6 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 137.2295)) at auction 6 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0137)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0054)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 109.4034)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 50.0117)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0178)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 147.5777)) at auction 4 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 113.7010)) at auction 5 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 177.0660)) at auction 5 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 115.8680)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 50.0082)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 50.0097)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0120)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 50.0106)) at auction 4 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-2 128.4747)) at auction 6 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 163.3487)) at auction 6 day 1
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 189.3672)) at auction 6 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 176.7218)) at auction 6 day 2
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-3 190.3153)) at auction 5 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 188.8098)) at auction 5 day 4
+16/03 23:25:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0155)) at auction 5 day 4
+16/03 23:25:01 FINE server.TACServer|new agent: tac-2
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(tac-2): <auth><userName>admin</userName><userPW>admin</userPW></auth>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <auth><userID>11</userID><commandStatus>0</commandStatus></auth>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <serverTime></serverTime>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <serverTime><time>1489706701</time><commandStatus>0</commandStatus></serverTime>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <nextGame></nextGame>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <nextGame><gameID>14</gameID><startTime>1489706700</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getGameAuctionIDs><gameID>14</gameID></getGameAuctionIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getGameAuctionIDs><startTime>1489706700</startTime><auctionIDs><list><TACAuctionTuple><category>flight</category><type>1</type><day>1</day><ID>225</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>1</type><day>2</day><ID>226</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>1</type><day>3</day><ID>227</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>1</type><day>4</day><ID>228</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>0</type><day>2</day><ID>229</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>0</type><day>3</day><ID>230</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>0</type><day>4</day><ID>231</ID></TACAuctionTuple><TACAuctionTuple><category>flight</category><type>0</type><day>5</day><ID>232</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>1</type><day>1</day><ID>233</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>1</type><day>2</day><ID>234</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>1</type><day>3</day><ID>235</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>1</type><day>4</day><ID>236</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>0</type><day>1</day><ID>237</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>0</type><day>2</day><ID>238</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>0</type><day>3</day><ID>239</ID></TACAuctionTuple><TACAuctionTuple><category>hotel</category><type>0</type><day>4</day><ID>240</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>1</type><day>1</day><ID>241</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>1</type><day>2</day><ID>242</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>1</type><day>3</day><ID>243</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>1</type><day>4</day><ID>244</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>2</type><day>1</day><ID>245</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>2</type><day>2</day><ID>246</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>2</type><day>3</day><ID>247</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>2</type><day>4</day><ID>248</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>3</type><day>1</day><ID>249</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>3</type><day>2</day><ID>250</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>3</type><day>3</day><ID>251</ID></TACAuctionTuple><TACAuctionTuple><category>entertainment</category><type>3</type><day>4</day><ID>252</ID></TACAuctionTuple></list></auctionIDs><commandStatus>0</commandStatus></getGameAuctionIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getGameConsts><gameID>14</gameID></getGameConsts>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getGameConsts><gameType>tacClassic</gameType><numClients>8</numClients><numAgents>8</numAgents><gameLength>540</gameLength><commandStatus>0</commandStatus></getGameConsts>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getGameParams><gameID>14</gameID></getGameParams>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getGameParams><clientPreferences><list><clientPrefTuple><client>1</client><arrival>2</arrival><departure>5</departure><hotel>60.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>76.00</price></typePriceTuple><typePriceTuple><type>2</type><price>88.00</price></typePriceTuple><typePriceTuple><type>3</type><price>102.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>2</client><arrival>2</arrival><departure>3</departure><hotel>141.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>39.00</price></typePriceTuple><typePriceTuple><type>2</type><price>178.00</price></typePriceTuple><typePriceTuple><type>3</type><price>134.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>3</client><arrival>3</arrival><departure>5</departure><hotel>84.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>33.00</price></typePriceTuple><typePriceTuple><type>2</type><price>125.00</price></typePriceTuple><typePriceTuple><type>3</type><price>40.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>4</client><arrival>2</arrival><departure>5</departure><hotel>119.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>38.00</price></typePriceTuple><typePriceTuple><type>2</type><price>15.00</price></typePriceTuple><typePriceTuple><type>3</type><price>10.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>5</client><arrival>1</arrival><departure>5</departure><hotel>69.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>12.00</price></typePriceTuple><typePriceTuple><type>2</type><price>35.00</price></typePriceTuple><typePriceTuple><type>3</type><price>180.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>6</client><arrival>1</arrival><departure>4</departure><hotel>81.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>30.00</price></typePriceTuple><typePriceTuple><type>2</type><price>144.00</price></typePriceTuple><typePriceTuple><type>3</type><price>93.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>7</client><arrival>2</arrival><departure>3</departure><hotel>105.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>72.00</price></typePriceTuple><typePriceTuple><type>2</type><price>175.00</price></typePriceTuple><typePriceTuple><type>3</type><price>42.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple><clientPrefTuple><client>8</client><arrival>1</arrival><departure>4</departure><hotel>114.00</hotel><ticketPreferences><list><typePriceTuple><type>1</type><price>66.00</price></typePriceTuple><typePriceTuple><type>2</type><price>120.00</price></typePriceTuple><typePriceTuple><type>3</type><price>73.00</price></typePriceTuple></list></ticketPreferences></clientPrefTuple></list></clientPreferences><ticketEndowments><list><ticketEndowmentTuple><type>1</type><day>1</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>1</type><day>2</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>1</type><day>3</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>1</type><day>4</day><quantity>2</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>2</type><day>1</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>2</type><day>2</day><quantity>2</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>2</type><day>3</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>2</type><day>4</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>3</type><day>1</day><quantity>4</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>3</type><day>2</day><quantity>0</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>3</type><day>3</day><quantity>4</quantity></ticketEndowmentTuple><ticketEndowmentTuple><type>3</type><day>4</day><quantity>0</quantity></ticketEndowmentTuple></list></ticketEndowments><commandStatus>0</commandStatus></getGameParams>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>-1</earliestTransID></transIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>225</auctionID><bidString>((3 1000.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8285</bidID><bidHash>((3 1000.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>226</auctionID><bidString>((4 1000.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8286</bidID><bidHash>((4 1000.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>227</auctionID><bidString>((1 1000.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8287</bidID><bidHash>((1 1000.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>230</auctionID><bidString>((2 1000.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8288</bidID><bidHash>((2 1000.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>231</auctionID><bidString>((2 1000.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8289</bidID><bidHash>((2 1000.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>232</auctionID><bidString>((4 1000.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8290</bidID><bidHash>((4 1000.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>237</auctionID><bidString>((1 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8291</bidID><bidHash>((1 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>238</auctionID><bidString>((2 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8292</bidID><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>239</auctionID><bidString>((2 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8293</bidID><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>240</auctionID><bidString>((2 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8294</bidID><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>233</auctionID><bidString>((2 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8295</bidID><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>234</auctionID><bidString>((5 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8296</bidID><bidHash>((5 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>235</auctionID><bidString>((4 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8297</bidID><bidHash>((4 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>236</auctionID><bidString>((2 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8298</bidID><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>244</auctionID><bidString>((-1 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8299</bidID><bidHash>((-1 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>245</auctionID><bidString>((1 50.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8300</bidID><bidHash>((1 50.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>246</auctionID><bidString>((1 50.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8301</bidID><bidHash>((1 50.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>247</auctionID><bidString>((1 50.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8302</bidID><bidHash>((1 50.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>249</auctionID><bidString>((-3 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8303</bidID><bidHash>((-3 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>251</auctionID><bidString>((-3 200.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8304</bidID><bidHash>((-3 200.0000))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>225</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>314.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>314.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>226</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>284.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>284.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>227</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>302.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>302.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>228</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>288.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>288.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>229</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>369.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>369.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>230</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>373.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>373.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>231</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>292.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>292.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>232</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>298.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706710</nextQuoteTime><lastClearPrice>298.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>241</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>115.8680</lastAskPrice><lastBidPrice>50.0120</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>242</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>157.2140</lastAskPrice><lastBidPrice>50.0136</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>243</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>156.2574</lastAskPrice><lastBidPrice>50.0149</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>244</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>109.4034</lastAskPrice><lastBidPrice>50.0178</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>245</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>113.7010</lastAskPrice><lastBidPrice>50.0000</lastBidPrice><lastQuoteTime>1489706701</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>246</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>138.7361</lastAskPrice><lastBidPrice>50.0130</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>247</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>143.8120</lastAskPrice><lastBidPrice>50.0074</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>248</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>188.8098</lastAskPrice><lastBidPrice>50.0155</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>249</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>128.4747</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>250</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>176.7218</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>251</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>117.1262</lastAskPrice><lastBidPrice>50.0157</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>252</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>137.2295</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706731</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>237</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>238</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>239</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>240</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>233</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>234</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>235</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>236</auctionID></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>0</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>0</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8285</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>1489706701</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8286</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>1489706701</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8287</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>1489706701</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8288</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>1489706701</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8289</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>1489706701</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8290</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>1489706701</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8291</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 200.0000))</bidString><bidHash>((1 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8292</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8293</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8294</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8295</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8296</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((5 200.0000))</bidString><bidHash>((5 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8297</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((4 200.0000))</bidString><bidHash>((4 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8298</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8299</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-1 200.0000))</bidString><bidHash>((-1 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8300</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 50.0000))</bidString><bidHash>((1 50.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8301</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 50.0000))</bidString><bidHash>((1 50.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8302</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 50.0000))</bidString><bidHash>((1 50.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8303</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 200.0000))</bidString><bidHash>((-3 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8304</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 200.0000))</bidString><bidHash>((-3 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>244</auctionID><bidString>((-1 199.77567))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8305</bidID><bidHash>((-1 199.7757))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>245</auctionID><bidString>((1 50.187637))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8306</bidID><bidHash>((1 50.1876))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>246</auctionID><bidString>((1 50.19014))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8307</bidID><bidHash>((1 50.1901))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>247</auctionID><bidString>((1 50.190693))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8308</bidID><bidHash>((1 50.1907))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>249</auctionID><bidString>((-3 199.76683))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8309</bidID><bidHash>((-3 199.7668))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>251</auctionID><bidString>((-3 199.76433))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8310</bidID><bidHash>((-3 199.7643))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>-1</earliestTransID></transIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list><transID>1601</transID><transID>1602</transID><transID>1603</transID><transID>1604</transID><transID>1605</transID><transID>1606</transID></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8305</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-1 199.7757))</bidString><bidHash>((-1 199.7757))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8306</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 50.1876))</bidString><bidHash>((1 50.1876))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8307</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 50.1901))</bidString><bidHash>((1 50.1901))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8308</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 50.1907))</bidString><bidHash>((1 50.1907))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8309</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 199.7668))</bidString><bidHash>((-3 199.7668))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8310</bidID></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 199.7643))</bidString><bidHash>((-3 199.7643))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transInfo><transID>1601</transID></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transInfo><auctionID>225</auctionID><clearTime>1489706701</clearTime><tradePartyID>auction</tradePartyID><price>314.0000</price><quantity>3.0</quantity><commandStatus>0</commandStatus></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transInfo><transID>1602</transID></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transInfo><auctionID>226</auctionID><clearTime>1489706701</clearTime><tradePartyID>auction</tradePartyID><price>284.0000</price><quantity>4.0</quantity><commandStatus>0</commandStatus></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transInfo><transID>1603</transID></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transInfo><auctionID>227</auctionID><clearTime>1489706701</clearTime><tradePartyID>auction</tradePartyID><price>302.0000</price><quantity>1.0</quantity><commandStatus>0</commandStatus></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transInfo><transID>1604</transID></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transInfo><auctionID>230</auctionID><clearTime>1489706701</clearTime><tradePartyID>auction</tradePartyID><price>373.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transInfo><transID>1605</transID></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transInfo><auctionID>231</auctionID><clearTime>1489706701</clearTime><tradePartyID>auction</tradePartyID><price>292.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transInfo><transID>1606</transID></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transInfo><auctionID>232</auctionID><clearTime>1489706701</clearTime><tradePartyID>auction</tradePartyID><price>298.0000</price><quantity>4.0</quantity><commandStatus>0</commandStatus></transInfo>
+16/03 23:25:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>1606</earliestTransID></transIDs>
+16/03 23:25:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>225</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>308.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>314.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>226</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>276.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>284.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>227</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>308.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>302.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>228</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>298.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>288.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>229</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>370.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>369.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>230</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>373.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>373.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>231</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>282.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>292.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>232</auctionID></getQuote>
+16/03 23:25:11 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>297.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706710</lastQuoteTime><nextQuoteTime>1489706720</nextQuoteTime><lastClearPrice>298.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>225</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>318.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>314.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>226</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>278.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>284.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>227</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>305.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>302.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>228</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>305.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>288.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>229</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>379.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>369.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>230</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>379.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>373.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>231</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>292.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>292.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>232</auctionID></getQuote>
+16/03 23:25:21 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>297.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706720</lastQuoteTime><nextQuoteTime>1489706730</nextQuoteTime><lastClearPrice>298.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>241</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>115.8680</lastAskPrice><lastBidPrice>50.0120</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>242</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>157.2140</lastAskPrice><lastBidPrice>50.0136</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>243</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>156.2574</lastAskPrice><lastBidPrice>50.0149</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>244</auctionID><bidID>8305</bidID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>109.4034</lastAskPrice><lastBidPrice>50.0178</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>245</auctionID><bidID>8306</bidID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>113.7010</lastAskPrice><lastBidPrice>50.1876</lastBidPrice><lastQuoteTime>1489706701</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>246</auctionID><bidID>8307</bidID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>138.7361</lastAskPrice><lastBidPrice>50.1901</lastBidPrice><lastQuoteTime>1489706701</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>247</auctionID><bidID>8308</bidID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>143.8120</lastAskPrice><lastBidPrice>50.1907</lastBidPrice><lastQuoteTime>1489706701</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>248</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>188.8098</lastAskPrice><lastBidPrice>50.0155</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>249</auctionID><bidID>8309</bidID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>128.4747</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>250</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>176.7218</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>251</auctionID><bidID>8310</bidID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>117.1262</lastAskPrice><lastBidPrice>50.0157</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>252</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>137.2295</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706700</lastQuoteTime><nextQuoteTime>1489706761</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>225</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>310.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>314.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>226</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>287.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>284.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>227</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>306.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>302.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>228</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>312.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>288.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>229</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>379.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>369.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>230</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>386.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>373.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>231</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>292.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>292.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>232</auctionID></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>297.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706730</lastQuoteTime><nextQuoteTime>1489706740</nextQuoteTime><lastClearPrice>298.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>244</auctionID><bidString>((-1 194.795))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8311</bidID><bidHash>((-1 194.7950))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>245</auctionID><bidString>((1 54.337917))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8312</bidID><bidHash>((1 54.3379))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 158.6892)) at auction 5 day 1
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 112.5611)) at auction 5 day 1
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>246</auctionID><bidString>((1 54.33847))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8315</bidID><bidHash>((1 54.3385))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 52.9068)) at auction 5 day 2
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-2 111.9606)) at auction 5 day 2
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 53.4617)) at auction 5 day 2
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 110.5062)) at auction 5 day 2
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 51.8393)) at auction 5 day 2
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 52.2101)) at auction 5 day 2
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>247</auctionID><bidString>((1 54.339027))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8322</bidID><bidHash>((1 54.3390))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 183.4629)) at auction 5 day 3
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 113.2225)) at auction 5 day 3
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 52.4854)) at auction 5 day 3
+16/03 23:25:31 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 124.5053)) at auction 5 day 3
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>249</auctionID><bidString>((-3 194.79184))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8327</bidID><bidHash>((-3 194.7918))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>251</auctionID><bidString>((-3 194.7905))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><bidID>8328</bidID><bidHash>((-3 194.7905))</bidHash><rejectReason>0</rejectReason><commandStatus>0</commandStatus></submitBid>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8311</bidID></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-1 194.7950))</bidString><bidHash>((-1 194.7950))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8312</bidID></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 54.3379))</bidString><bidHash>((1 54.3379))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8315</bidID></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 54.3385))</bidString><bidHash>((1 54.3385))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8322</bidID></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 54.3390))</bidString><bidHash>((1 54.3390))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8327</bidID></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 194.7918))</bidString><bidHash>((-3 194.7918))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8328</bidID></bidInfo>
+16/03 23:25:31 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 194.7905))</bidString><bidHash>((-3 194.7905))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>225</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>314.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>314.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>226</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>283.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>284.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>227</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>304.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>302.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>228</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>308.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>288.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>229</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>370.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>369.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>230</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>384.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>373.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>231</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>288.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>292.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>232</auctionID></getQuote>
+16/03 23:25:41 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>296.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706740</lastQuoteTime><nextQuoteTime>1489706750</nextQuoteTime><lastClearPrice>298.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8291</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 200.0000))</bidString><bidHash>((1 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8292</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8293</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8294</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8295</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8296</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((5 200.0000))</bidString><bidHash>((5 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8297</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((4 200.0000))</bidString><bidHash>((4 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8298</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((2 200.0000))</bidString><bidHash>((2 200.0000))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706701</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8311</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-1 194.7950))</bidString><bidHash>((-1 194.7950))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8312</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 54.3379))</bidString><bidHash>((1 54.3379))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8315</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 54.3385))</bidString><bidHash>((1 54.3385))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8322</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((1 54.3390))</bidString><bidHash>((1 54.3390))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8327</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 194.7918))</bidString><bidHash>((-3 194.7918))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <bidInfo><bidID>8328</bidID></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <bidInfo><bidString>((-3 194.7905))</bidString><bidHash>((-3 194.7905))</bidHash><rejectReason>0</rejectReason><processingState>2</processingState><timeProcessed>1489706731</timeProcessed><timeClosed>0</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+16/03 23:25:46 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>1606</earliestTransID></transIDs>
+16/03 23:25:46 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>225</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>311.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>314.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>226</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>283.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>284.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>227</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>299.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>302.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>228</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>317.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>288.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>229</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>369.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>369.0000</lastClearPrice><lastClearTime>1489706700</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>230</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>380.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>373.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>231</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>279.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>292.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>232</auctionID></getQuote>
+16/03 23:25:51 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>301.0000</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489706750</lastQuoteTime><nextQuoteTime>1489706760</nextQuoteTime><lastClearPrice>298.0000</lastClearPrice><lastClearTime>1489706701</lastClearTime><finalClearTime>1489707240</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>1</auctionStatus><commandStatus>0</commandStatus></getQuote>

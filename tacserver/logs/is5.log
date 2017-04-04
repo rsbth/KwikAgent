@@ -1,0 +1,333 @@
+16/03 17:18:27 FINE is.InfoServer|Using game path: /Users/sara16/Downloads/tacserver-1/public_html/history
+16/03 17:18:27 INFO is.GameArchiver|adding game 7 to be generated
+16/03 17:18:27 INFO is.GameArchiver|adding game 8 to be generated
+16/03 17:18:27 INFO is.AppletServer|viewer server started at *:4041
+16/03 16:18:27 SEVERE is.InfoServer|detected existing coming game 12 (12) prior to current time
+16/03 16:18:38 FINE is.InfoServer|new coming game 13 (gameid=13,tacClassic)
+16/03 16:18:56 FINE is.GameArchiver|Reading game 7 from applet7.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/7/applet.log.gz
+16/03 16:18:56 SEVERE is.GameArchiver|game 7 was not (yet?) finished!
+16/03 16:18:56 FINE is.GameArchiver|Reading game 8 from applet8.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/8/applet.log.gz
+16/03 16:18:56 SEVERE is.GameArchiver|game 8 was not (yet?) finished!
+16/03 16:19:59 FINE is.TACStore|>>> Checking competition for game: 13 (13)
+16/03 16:28:59 FINE is.InfoServer|game 13 ended
+16/03 16:29:00 FINEST solver.FastOptimizer|Best Util: 10857
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10192, h = 10388 time = 0
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10370, h = 10483 time = 0
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10388, h = 10501 time = 0
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10454, h = 10567 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10472, h = 10585 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10519, h = 10549 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10537, h = 10567 time = 2
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10547, h = 10660 time = 3
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10612, h = 10642 time = 4
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10615, h = 10645 time = 5
+16/03 16:29:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 5 on good hotel   E1 day 3 E2 day 1 E3 day 2 score = 1640
+Client 2 stays 2 - 4 on good hotel   E1 day 3 E2 day 2          score = 1458
+Client 3 stays 1 - 4 on good hotel   E1 day 1          E3 day 2 score = 1129
+Client 4 stays 4 - 5 on good hotel                     E3 day 4 score = 1281
+Client 5 stays 3 - 4 on good hotel                     E3 day 3 score = 1213
+Client 6 stays 2 - 5 on good hotel                     E3 day 2 score = 1297
+Client 7 stays 1 - 5 on good hotel            E2 day 1 E3 day 2 score = 1338
+Client 8 stays 3 - 4 on good hotel            E2 day 3          score = 1259
+Total score = 10615
+-------------------------------------------
+Time: 9        	Allocs: 116
+Bnbs: 3889    	Bound: 10615
+-------------------------------------------
+16/03 16:29:00 FINEST solver.FastOptimizer|Best Util: 11794
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9599, h = 9665 time = 0
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9705, h = 9771 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9714, h = 9780 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9757, h = 9823 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9766, h = 9832 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9789, h = 9855 time = 1
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9798, h = 9864 time = 2
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9804, h = 9870 time = 21
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9813, h = 9879 time = 22
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9815, h = 9859 time = 22
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9826, h = 9892 time = 82
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9835, h = 9901 time = 82
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9856, h = 9944 time = 82
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9865, h = 9953 time = 82
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9873, h = 9939 time = 87
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9882, h = 9948 time = 88
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9909, h = 9975 time = 207
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9918, h = 9984 time = 207
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9925, h = 10031 time = 257
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9944, h = 10010 time = 413
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9953, h = 10019 time = 413
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9976, h = 10042 time = 413
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 9985, h = 10051 time = 413
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10022, h = 10088 time = 429
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10031, h = 10097 time = 429
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10033, h = 10077 time = 430
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10040, h = 10106 time = 465
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10061, h = 10149 time = 465
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10070, h = 10158 time = 465
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10109, h = 10175 time = 472
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10118, h = 10184 time = 472
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10121, h = 10227 time = 635
+16/03 16:29:00 FINEST solver.FastOptimizer|New Bound: 10130, h = 10236 time = 635
+16/03 16:29:02 WARNING line.LineConnection|tac-1: 127.0.0.1 closed connection
+16/03 16:29:02 FINEST line.LineConnection|tac-1: connection closed from 127.0.0.1
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 2 - 5 on good hotel   E1 day 2 E2 day 3 E3 day 4 score = 1645
+Client 2 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1357
+Client 3 stays 3 - 5 on cheap hotel           E2 day 4 E3 day 3 score = 1292
+Client 4 stays 2 - 3 on good hotel                              score = 891
+Client 5 stays 3 - 4 on good hotel                     E3 day 3 score = 1267
+Client 6 stays 3 - 4 on good hotel   E1 day 3                   score = 1306
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1243
+Client 8 stays 2 - 4 on cheap hotel  E1 day 2 E2 day 3          score = 1129
+Total score = 10130
+-------------------------------------------
+Time: 3043        	Allocs: 2212
+Bnbs: 40933112    	Bound: 10130
+-------------------------------------------
+16/03 16:29:03 FINEST solver.FastOptimizer|Best Util: 9734
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7319, h = 7484 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7323, h = 7488 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7344, h = 7442 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7366, h = 7531 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7387, h = 7485 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7391, h = 7489 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7395, h = 7493 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7396, h = 7545 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7400, h = 7549 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7423, h = 7521 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7443, h = 7592 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7449, h = 7598 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7453, h = 7602 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7468, h = 7617 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7472, h = 7621 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7485, h = 7650 time = 7
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7506, h = 7604 time = 7
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7510, h = 7608 time = 7
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7514, h = 7612 time = 8
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7515, h = 7664 time = 8
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7519, h = 7668 time = 8
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7542, h = 7640 time = 8
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7562, h = 7711 time = 8
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7568, h = 7717 time = 9
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7572, h = 7721 time = 9
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7587, h = 7736 time = 9
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7591, h = 7740 time = 9
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7909, h = 8074 time = 11
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7961, h = 8126 time = 11
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7965, h = 8130 time = 11
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7986, h = 8084 time = 11
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8007, h = 8172 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8032, h = 8130 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8060, h = 8225 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8081, h = 8179 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8085, h = 8183 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8091, h = 8189 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8127, h = 8292 time = 12
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8152, h = 8250 time = 13
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8179, h = 8344 time = 13
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8200, h = 8298 time = 13
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8204, h = 8302 time = 13
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8210, h = 8308 time = 14
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8246, h = 8411 time = 14
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8271, h = 8369 time = 14
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8278, h = 8427 time = 15
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8284, h = 8433 time = 16
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8288, h = 8437 time = 16
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8303, h = 8452 time = 16
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8307, h = 8456 time = 16
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8312, h = 8461 time = 19
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8316, h = 8465 time = 19
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8330, h = 8479 time = 19
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8353, h = 8451 time = 19
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8373, h = 8522 time = 19
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 3 - 5 on cheap hotel           E2 day 4          score = 1098
+Client 2 stays 3 - 4 on cheap hotel                             score = 1000
+Client 3 stays 4 - 5 on good hotel                     E3 day 4 score = 1080
+Client 4 stays 1 - 3 on cheap hotel                             score = 1000
+Client 5 stays 2 - 3 on cheap hotel                             score = 1000
+Client 6 stays 4 - 5 on good hotel            E2 day 4          score = 1166
+Client 7 stays 3 - 5 on cheap hotel           E2 day 3 E3 day 4 score = 1209
+Client 8 stays 1 - 2 on good hotel                              score = 820
+Total score = 8373
+-------------------------------------------
+Time: 30        	Allocs: 14311
+Bnbs: 86907    	Bound: 8373
+-------------------------------------------
+16/03 16:29:03 FINEST solver.FastOptimizer|Best Util: 10437
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9002, h = 9066 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9040, h = 9181 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9062, h = 9203 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9086, h = 9227 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9144, h = 9208 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9156, h = 9220 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9281, h = 9345 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9293, h = 9357 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9346, h = 9410 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9358, h = 9422 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9365, h = 9493 time = 3
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9377, h = 9505 time = 4
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9430, h = 9558 time = 18
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9442, h = 9570 time = 18
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9460, h = 9652 time = 29
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9484, h = 9612 time = 30
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9496, h = 9624 time = 30
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9565, h = 9693 time = 30
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9577, h = 9705 time = 30
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9578, h = 9706 time = 35
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9629, h = 9693 time = 63
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 4 - 5 on good hotel            E2 day 4          score = 1239
+Client 2 stays 2 - 3 on good hotel            E2 day 2          score = 1321
+Client 3 stays 1 - 2 on good hotel                     E3 day 1 score = 1149
+Client 4 stays 2 - 3 on good hotel   E1 day 2                   score = 1001
+Client 5 stays 4 - 5 on good hotel                     E3 day 4 score = 1043
+Client 6 stays 1 - 5 on cheap hotel           E2 day 3 E3 day 1 score = 1236
+Client 7 stays 1 - 4 on cheap hotel  E1 day 3          E3 day 1 score = 1277
+Client 8 stays 1 - 3 on good hotel            E2 day 2 E3 day 1 score = 1363
+Total score = 9629
+-------------------------------------------
+Time: 75        	Allocs: 34613
+Bnbs: 590421    	Bound: 9629
+-------------------------------------------
+16/03 16:29:03 FINEST solver.FastOptimizer|Best Util: 10465
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9597, h = 9597 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9697, h = 9697 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9698, h = 9698 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9718, h = 9718 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9797, h = 9797 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9873, h = 9873 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9973, h = 9973 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9974, h = 9974 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9994, h = 9994 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 10005, h = 10005 time = 2
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel            E2 day 2 E3 day 1 score = 1421
+Client 2 stays 2 - 3 on good hotel   E1 day 2                   score = 1272
+Client 3 stays 3 - 5 on cheap hotel  E1 day 3          E3 day 4 score = 1177
+Client 4 stays 1 - 2 on good hotel                     E3 day 1 score = 1267
+Client 5 stays 1 - 3 on cheap hotel                             score = 1000
+Client 6 stays 1 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1257
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1279
+Client 8 stays 2 - 4 on good hotel            E2 day 2 E3 day 3 score = 1332
+Total score = 10005
+-------------------------------------------
+Time: 4        	Allocs: 66
+Bnbs: 23073    	Bound: 10005
+-------------------------------------------
+16/03 16:29:03 FINEST solver.FastOptimizer|Best Util: 9843
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7827, h = 8040 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7965, h = 8178 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7976, h = 8189 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7982, h = 8195 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8004, h = 8217 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8015, h = 8228 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8021, h = 8234 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8059, h = 8272 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8110, h = 8323 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8131, h = 8344 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8182, h = 8395 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8229, h = 8442 time = 19
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8280, h = 8493 time = 20
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel                              score = 990
+Client 2 stays 2 - 3 on cheap hotel  E1 day 2                   score = 969
+Client 3 stays 3 - 4 on good hotel                              score = 1071
+Client 4 stays 3 - 5 on good hotel                              score = 1114
+Client 5 stays 4 - 5 on cheap hotel           E2 day 4          score = 1181
+Client 6 stays 1 - 3 on cheap hotel                    E3 day 2 score = 941
+Client 7 stays 3 - 5 on cheap hotel                             score = 1000
+Client 8 stays 4 - 5 on cheap hotel  E1 day 4                   score = 1014
+Total score = 8280
+-------------------------------------------
+Time: 37        	Allocs: 24562
+Bnbs: 429332    	Bound: 8280
+-------------------------------------------
+16/03 16:29:03 FINEST solver.FastOptimizer|Best Util: 10862
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9284, h = 9523 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9332, h = 9623 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9352, h = 9591 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9432, h = 9671 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9642, h = 9933 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9646, h = 9885 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9710, h = 10001 time = 2
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9714, h = 9953 time = 3
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9790, h = 10081 time = 3
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9794, h = 10033 time = 3
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 4 - 5 on good hotel   E1 day 4                   score = 1241
+Client 2 stays 2 - 3 on good hotel            E2 day 2          score = 1260
+Client 3 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1440
+Client 4 stays 4 - 5 on cheap hotel  E1 day 4                   score = 1185
+Client 5 stays 1 - 3 on cheap hotel  E1 day 2 E2 day 1          score = 1240
+Client 6 stays 1 - 2 on good hotel            E2 day 1          score = 1081
+Client 7 stays 1 - 2 on good hotel   E1 day 1                   score = 1331
+Client 8 stays 3 - 4 on cheap hotel                    E3 day 3 score = 1016
+Total score = 9794
+-------------------------------------------
+Time: 30        	Allocs: 26713
+Bnbs: 476596    	Bound: 9794
+-------------------------------------------
+16/03 16:29:03 FINEST solver.FastOptimizer|Best Util: 10280
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7608, h = 7608 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7709, h = 7709 time = 0
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7766, h = 7766 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7773, h = 7773 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 7777, h = 7777 time = 1
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8276, h = 8276 time = 3
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8320, h = 8320 time = 3
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8421, h = 8421 time = 4
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8509, h = 8509 time = 4
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8959, h = 8959 time = 4
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 8991, h = 8991 time = 4
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9004, h = 9004 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9046, h = 9046 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9060, h = 9060 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9078, h = 9078 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9092, h = 9092 time = 5
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9178, h = 9178 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9192, h = 9192 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9246, h = 9246 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9278, h = 9278 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9378, h = 9378 time = 6
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9457, h = 9457 time = 7
+16/03 16:29:03 FINEST solver.FastOptimizer|New Bound: 9516, h = 9516 time = 9
+16/03 16:29:03 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1060
+Client 2 stays 2 - 3 on good hotel            E2 day 2          score = 1304
+Client 3 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1366
+Client 4 stays 1 - 4 on cheap hotel  E1 day 2 E2 day 3          score = 1231
+Client 5 stays 4 - 5 on good hotel   E1 day 4                   score = 1320
+Client 6 stays 3 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1088
+Client 7 stays 1 - 2 on cheap hotel  E1 day 1                   score = 1147
+Client 8 stays 2 - 3 on cheap hotel                             score = 1000
+Total score = 9516
+-------------------------------------------
+Time: 10        	Allocs: 141
+Bnbs: 13849    	Bound: 9516
+-------------------------------------------

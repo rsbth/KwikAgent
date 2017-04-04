@@ -1,0 +1,837 @@
+28/03 10:08:19 FINE is.InfoServer|Using game path: /Users/sara16/Downloads/tacserver-1/public_html/history
+28/03 10:08:20 INFO is.GameArchiver|adding game 7 to be generated
+28/03 10:08:20 INFO is.GameArchiver|adding game 8 to be generated
+28/03 10:08:20 INFO is.GameArchiver|adding game 13 to be generated
+28/03 10:08:20 INFO is.GameArchiver|adding game 14 to be generated
+28/03 10:08:20 INFO is.AppletServer|viewer server started at *:4041
+28/03 08:08:20 SEVERE is.InfoServer|detected existing coming game 20 (20) prior to current time
+28/03 08:08:49 FINE is.GameArchiver|Reading game 7 from applet7.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/7/applet.log.gz
+28/03 08:08:49 SEVERE is.GameArchiver|game 7 was not (yet?) finished!
+28/03 08:08:49 FINE is.GameArchiver|Reading game 8 from applet8.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/8/applet.log.gz
+28/03 08:08:49 SEVERE is.GameArchiver|game 8 was not (yet?) finished!
+28/03 08:08:49 FINE is.GameArchiver|Reading game 13 from applet13.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/13/applet.log.gz
+28/03 08:08:49 SEVERE is.GameArchiver|game 13 was not (yet?) finished!
+28/03 08:08:49 FINE is.GameArchiver|Reading game 14 from applet14.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/14/applet.log.gz
+28/03 08:08:49 SEVERE is.GameArchiver|game 14 was not (yet?) finished!
+28/03 08:46:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 2060 seconds
+28/03 08:46:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:46:30 FINEST line.LineConnection|tac-1: connection from 127.0.0.1 requested to close
+28/03 08:46:30 FINEST line.LineConnection|tac-1: connection closed from 127.0.0.1
+28/03 08:46:30 WARNING line.LineConnection|tac-2: 127.0.0.1 closed connection
+28/03 08:46:30 FINEST line.LineConnection|tac-2: connection closed from 127.0.0.1
+28/03 08:47:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:47:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:47:00 WARNING line.LineConnection|tac-3: 127.0.0.1 closed connection
+28/03 08:47:00 FINEST line.LineConnection|tac-3: connection closed from 127.0.0.1
+28/03 08:47:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:47:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:47:30 WARNING line.LineConnection|tac-4: 127.0.0.1 closed connection
+28/03 08:47:30 FINEST line.LineConnection|tac-4: connection closed from 127.0.0.1
+28/03 08:48:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:48:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:48:00 SEVERE line.LineConnection|tac-5: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 08:48:00 WARNING line.LineConnection|tac-5: 127.0.0.1 closed connection
+28/03 08:48:00 FINEST line.LineConnection|tac-5: connection closed from 127.0.0.1
+28/03 08:48:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:48:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:48:30 WARNING line.LineConnection|tac-6: 127.0.0.1 closed connection
+28/03 08:48:30 FINEST line.LineConnection|tac-6: connection closed from 127.0.0.1
+28/03 08:49:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:49:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:49:00 WARNING line.LineConnection|tac-7: 127.0.0.1 closed connection
+28/03 08:49:00 FINEST line.LineConnection|tac-7: connection closed from 127.0.0.1
+28/03 08:49:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:49:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:49:30 WARNING line.LineConnection|tac-8: 127.0.0.1 closed connection
+28/03 08:49:30 FINEST line.LineConnection|tac-8: connection closed from 127.0.0.1
+28/03 08:50:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:50:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:50:00 WARNING line.LineConnection|tac-9: 127.0.0.1 closed connection
+28/03 08:50:00 FINEST line.LineConnection|tac-9: connection closed from 127.0.0.1
+28/03 08:50:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:50:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:50:30 WARNING line.LineConnection|tac-10: 127.0.0.1 closed connection
+28/03 08:50:30 FINEST line.LineConnection|tac-10: connection closed from 127.0.0.1
+28/03 08:51:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:51:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:51:00 WARNING line.LineConnection|tac-11: 127.0.0.1 closed connection
+28/03 08:51:00 FINEST line.LineConnection|tac-11: connection closed from 127.0.0.1
+28/03 08:51:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 08:51:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 08:51:30 WARNING line.LineConnection|tac-12: 127.0.0.1 closed connection
+28/03 08:51:30 FINEST line.LineConnection|tac-12: connection closed from 127.0.0.1
+28/03 09:00:28 SEVERE is.ISTimerTask|forcing reconnection to the server after 538 seconds
+28/03 09:00:28 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:00:28 WARNING line.LineConnection|tac-13: 127.0.0.1 closed connection
+28/03 09:00:28 FINEST line.LineConnection|tac-13: connection closed from 127.0.0.1
+28/03 09:00:58 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:00:58 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:00:58 WARNING line.LineConnection|tac-14: 127.0.0.1 closed connection
+28/03 09:00:58 FINEST line.LineConnection|tac-14: connection closed from 127.0.0.1
+28/03 09:01:28 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:01:28 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:01:28 WARNING line.LineConnection|tac-15: 127.0.0.1 closed connection
+28/03 09:01:28 FINEST line.LineConnection|tac-15: connection closed from 127.0.0.1
+28/03 09:01:58 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:01:58 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:01:58 WARNING line.LineConnection|tac-16: 127.0.0.1 closed connection
+28/03 09:01:58 FINEST line.LineConnection|tac-16: connection closed from 127.0.0.1
+28/03 09:02:54 SEVERE is.ISTimerTask|forcing reconnection to the server after 56 seconds
+28/03 09:02:54 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:02:54 WARNING line.LineConnection|tac-17: 127.0.0.1 closed connection
+28/03 09:02:54 FINEST line.LineConnection|tac-17: connection closed from 127.0.0.1
+28/03 09:03:24 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:03:24 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:03:24 WARNING line.LineConnection|tac-18: 127.0.0.1 closed connection
+28/03 09:03:24 FINEST line.LineConnection|tac-18: connection closed from 127.0.0.1
+28/03 09:07:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 228 seconds
+28/03 09:07:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:07:13 WARNING line.LineConnection|tac-19: 127.0.0.1 closed connection
+28/03 09:07:13 FINEST line.LineConnection|tac-19: connection closed from 127.0.0.1
+28/03 09:07:43 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:07:43 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:07:43 WARNING line.LineConnection|tac-20: 127.0.0.1 closed connection
+28/03 09:07:43 FINEST line.LineConnection|tac-20: connection closed from 127.0.0.1
+28/03 09:08:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:08:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:08:13 WARNING line.LineConnection|tac-21: 127.0.0.1 closed connection
+28/03 09:08:13 FINEST line.LineConnection|tac-21: connection closed from 127.0.0.1
+28/03 09:08:43 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:08:43 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:08:43 WARNING line.LineConnection|tac-22: 127.0.0.1 closed connection
+28/03 09:08:43 FINEST line.LineConnection|tac-22: connection closed from 127.0.0.1
+28/03 09:09:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:09:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:09:13 SEVERE line.LineConnection|tac-23: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 09:09:13 WARNING line.LineConnection|tac-23: 127.0.0.1 closed connection
+28/03 09:09:13 FINEST line.LineConnection|tac-23: connection closed from 127.0.0.1
+28/03 09:09:43 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:09:43 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:09:43 WARNING line.LineConnection|tac-24: 127.0.0.1 closed connection
+28/03 09:09:43 FINEST line.LineConnection|tac-24: connection closed from 127.0.0.1
+28/03 09:10:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:10:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:10:13 WARNING line.LineConnection|tac-25: 127.0.0.1 closed connection
+28/03 09:10:13 FINEST line.LineConnection|tac-25: connection closed from 127.0.0.1
+28/03 09:10:43 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:10:43 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:10:43 WARNING line.LineConnection|tac-26: 127.0.0.1 closed connection
+28/03 09:10:43 FINEST line.LineConnection|tac-26: connection closed from 127.0.0.1
+28/03 09:11:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:11:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:11:13 WARNING line.LineConnection|tac-27: 127.0.0.1 closed connection
+28/03 09:11:13 FINEST line.LineConnection|tac-27: connection closed from 127.0.0.1
+28/03 09:11:43 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:11:43 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:11:43 WARNING line.LineConnection|tac-28: 127.0.0.1 closed connection
+28/03 09:11:43 FINEST line.LineConnection|tac-28: connection closed from 127.0.0.1
+28/03 09:12:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:12:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:12:13 WARNING line.LineConnection|tac-29: 127.0.0.1 closed connection
+28/03 09:12:13 FINEST line.LineConnection|tac-29: connection closed from 127.0.0.1
+28/03 09:12:43 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:12:43 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:12:43 WARNING line.LineConnection|tac-30: 127.0.0.1 closed connection
+28/03 09:12:43 FINEST line.LineConnection|tac-30: connection closed from 127.0.0.1
+28/03 09:13:13 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:13:13 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:13:13 WARNING line.LineConnection|tac-31: 127.0.0.1 closed connection
+28/03 09:13:13 FINEST line.LineConnection|tac-31: connection closed from 127.0.0.1
+28/03 09:13:44 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:13:44 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:13:44 WARNING line.LineConnection|tac-32: 127.0.0.1 closed connection
+28/03 09:13:44 FINEST line.LineConnection|tac-32: connection closed from 127.0.0.1
+28/03 09:14:14 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:14:14 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:14:14 WARNING line.LineConnection|tac-33: 127.0.0.1 closed connection
+28/03 09:14:14 FINEST line.LineConnection|tac-33: connection closed from 127.0.0.1
+28/03 09:14:44 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:14:44 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:14:44 SEVERE line.LineConnection|tac-34: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 09:14:44 WARNING line.LineConnection|tac-34: 127.0.0.1 closed connection
+28/03 09:14:44 FINEST line.LineConnection|tac-34: connection closed from 127.0.0.1
+28/03 09:15:14 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:15:14 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:15:14 WARNING line.LineConnection|tac-35: 127.0.0.1 closed connection
+28/03 09:15:14 FINEST line.LineConnection|tac-35: connection closed from 127.0.0.1
+28/03 09:45:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 1822 seconds
+28/03 09:45:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:45:36 WARNING line.LineConnection|tac-36: 127.0.0.1 closed connection
+28/03 09:45:36 FINEST line.LineConnection|tac-36: connection closed from 127.0.0.1
+28/03 09:46:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:46:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:46:06 WARNING line.LineConnection|tac-37: 127.0.0.1 closed connection
+28/03 09:46:06 FINEST line.LineConnection|tac-37: connection closed from 127.0.0.1
+28/03 09:46:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:46:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:46:36 WARNING line.LineConnection|tac-38: 127.0.0.1 closed connection
+28/03 09:46:36 FINEST line.LineConnection|tac-38: connection closed from 127.0.0.1
+28/03 09:47:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:47:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:47:06 WARNING line.LineConnection|tac-39: 127.0.0.1 closed connection
+28/03 09:47:06 FINEST line.LineConnection|tac-39: connection closed from 127.0.0.1
+28/03 09:47:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:47:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:47:36 WARNING line.LineConnection|tac-40: 127.0.0.1 closed connection
+28/03 09:47:36 FINEST line.LineConnection|tac-40: connection closed from 127.0.0.1
+28/03 09:48:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:48:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:48:06 WARNING line.LineConnection|tac-41: 127.0.0.1 closed connection
+28/03 09:48:06 FINEST line.LineConnection|tac-41: connection closed from 127.0.0.1
+28/03 09:48:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:48:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:48:36 WARNING line.LineConnection|tac-42: 127.0.0.1 closed connection
+28/03 09:48:36 FINEST line.LineConnection|tac-42: connection closed from 127.0.0.1
+28/03 09:49:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:49:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:49:06 WARNING line.LineConnection|tac-43: 127.0.0.1 closed connection
+28/03 09:49:06 FINEST line.LineConnection|tac-43: connection closed from 127.0.0.1
+28/03 09:49:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:49:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:49:36 WARNING line.LineConnection|tac-44: 127.0.0.1 closed connection
+28/03 09:49:36 FINEST line.LineConnection|tac-44: connection closed from 127.0.0.1
+28/03 09:50:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:50:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:50:06 WARNING line.LineConnection|tac-45: 127.0.0.1 closed connection
+28/03 09:50:06 FINEST line.LineConnection|tac-45: connection closed from 127.0.0.1
+28/03 09:50:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:50:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:50:36 WARNING line.LineConnection|tac-46: 127.0.0.1 closed connection
+28/03 09:50:36 FINEST line.LineConnection|tac-46: connection closed from 127.0.0.1
+28/03 09:51:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:51:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:51:06 WARNING line.LineConnection|tac-47: 127.0.0.1 closed connection
+28/03 09:51:06 FINEST line.LineConnection|tac-47: connection closed from 127.0.0.1
+28/03 09:51:36 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:51:36 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:51:36 WARNING line.LineConnection|tac-48: 127.0.0.1 closed connection
+28/03 09:51:36 FINEST line.LineConnection|tac-48: connection closed from 127.0.0.1
+28/03 09:52:06 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 09:52:06 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 09:52:06 WARNING line.LineConnection|tac-49: 127.0.0.1 closed connection
+28/03 09:52:06 FINEST line.LineConnection|tac-49: connection closed from 127.0.0.1
+28/03 10:21:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 1737 seconds
+28/03 10:21:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:21:03 SEVERE line.LineConnection|tac-50: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:21:03 WARNING line.LineConnection|tac-50: 127.0.0.1 closed connection
+28/03 10:21:03 FINEST line.LineConnection|tac-50: connection closed from 127.0.0.1
+28/03 10:21:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:21:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:21:33 SEVERE line.LineConnection|tac-51: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:21:33 WARNING line.LineConnection|tac-51: 127.0.0.1 closed connection
+28/03 10:21:33 FINEST line.LineConnection|tac-51: connection closed from 127.0.0.1
+28/03 10:22:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:22:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:22:03 WARNING line.LineConnection|tac-52: 127.0.0.1 closed connection
+28/03 10:22:03 FINEST line.LineConnection|tac-52: connection closed from 127.0.0.1
+28/03 10:22:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:22:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:22:33 WARNING line.LineConnection|tac-53: 127.0.0.1 closed connection
+28/03 10:22:33 FINEST line.LineConnection|tac-53: connection closed from 127.0.0.1
+28/03 10:23:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:23:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:23:03 SEVERE line.LineConnection|tac-54: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:23:03 WARNING line.LineConnection|tac-54: 127.0.0.1 closed connection
+28/03 10:23:03 FINEST line.LineConnection|tac-54: connection closed from 127.0.0.1
+28/03 10:23:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:23:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:23:33 WARNING line.LineConnection|tac-55: 127.0.0.1 closed connection
+28/03 10:23:33 FINEST line.LineConnection|tac-55: connection closed from 127.0.0.1
+28/03 10:24:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:24:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:24:03 SEVERE line.LineConnection|tac-56: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:24:03 WARNING line.LineConnection|tac-56: 127.0.0.1 closed connection
+28/03 10:24:03 FINEST line.LineConnection|tac-56: connection closed from 127.0.0.1
+28/03 10:24:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:24:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:24:33 WARNING line.LineConnection|tac-57: 127.0.0.1 closed connection
+28/03 10:24:33 FINEST line.LineConnection|tac-57: connection closed from 127.0.0.1
+28/03 10:25:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:25:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:25:03 SEVERE line.LineConnection|tac-58: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:25:03 WARNING line.LineConnection|tac-58: 127.0.0.1 closed connection
+28/03 10:25:03 FINEST line.LineConnection|tac-58: connection closed from 127.0.0.1
+28/03 10:25:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:25:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:25:33 WARNING line.LineConnection|tac-59: 127.0.0.1 closed connection
+28/03 10:25:33 FINEST line.LineConnection|tac-59: connection closed from 127.0.0.1
+28/03 10:26:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:26:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:26:03 WARNING line.LineConnection|tac-60: 127.0.0.1 closed connection
+28/03 10:26:03 FINEST line.LineConnection|tac-60: connection closed from 127.0.0.1
+28/03 10:26:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:26:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:26:33 WARNING line.LineConnection|tac-61: 127.0.0.1 closed connection
+28/03 10:26:33 FINEST line.LineConnection|tac-61: connection closed from 127.0.0.1
+28/03 10:27:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:27:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:27:03 WARNING line.LineConnection|tac-62: 127.0.0.1 closed connection
+28/03 10:27:03 FINEST line.LineConnection|tac-62: connection closed from 127.0.0.1
+28/03 10:27:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:27:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:27:33 WARNING line.LineConnection|tac-63: 127.0.0.1 closed connection
+28/03 10:27:33 FINEST line.LineConnection|tac-63: connection closed from 127.0.0.1
+28/03 10:28:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:28:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:28:03 WARNING line.LineConnection|tac-64: 127.0.0.1 closed connection
+28/03 10:28:03 FINEST line.LineConnection|tac-64: connection closed from 127.0.0.1
+28/03 10:28:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:28:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:28:33 WARNING line.LineConnection|tac-65: 127.0.0.1 closed connection
+28/03 10:28:33 FINEST line.LineConnection|tac-65: connection closed from 127.0.0.1
+28/03 10:29:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:29:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:29:03 WARNING line.LineConnection|tac-66: 127.0.0.1 closed connection
+28/03 10:29:03 FINEST line.LineConnection|tac-66: connection closed from 127.0.0.1
+28/03 10:29:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:29:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:29:33 WARNING line.LineConnection|tac-67: 127.0.0.1 closed connection
+28/03 10:29:33 FINEST line.LineConnection|tac-67: connection closed from 127.0.0.1
+28/03 10:30:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:30:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:30:03 WARNING line.LineConnection|tac-68: 127.0.0.1 closed connection
+28/03 10:30:03 FINEST line.LineConnection|tac-68: connection closed from 127.0.0.1
+28/03 10:30:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:30:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:30:33 WARNING line.LineConnection|tac-69: 127.0.0.1 closed connection
+28/03 10:30:33 FINEST line.LineConnection|tac-69: connection closed from 127.0.0.1
+28/03 10:31:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:31:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:31:03 WARNING line.LineConnection|tac-70: 127.0.0.1 closed connection
+28/03 10:31:03 FINEST line.LineConnection|tac-70: connection closed from 127.0.0.1
+28/03 10:31:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:31:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:31:33 WARNING line.LineConnection|tac-71: 127.0.0.1 closed connection
+28/03 10:31:33 FINEST line.LineConnection|tac-71: connection closed from 127.0.0.1
+28/03 10:32:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:32:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:32:03 WARNING line.LineConnection|tac-72: 127.0.0.1 closed connection
+28/03 10:32:03 FINEST line.LineConnection|tac-72: connection closed from 127.0.0.1
+28/03 10:32:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:32:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:32:33 WARNING line.LineConnection|tac-73: 127.0.0.1 closed connection
+28/03 10:32:33 FINEST line.LineConnection|tac-73: connection closed from 127.0.0.1
+28/03 10:33:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:33:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:33:03 WARNING line.LineConnection|tac-74: 127.0.0.1 closed connection
+28/03 10:33:03 FINEST line.LineConnection|tac-74: connection closed from 127.0.0.1
+28/03 10:33:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:33:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:33:33 SEVERE line.LineConnection|tac-75: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:33:33 WARNING line.LineConnection|tac-75: 127.0.0.1 closed connection
+28/03 10:33:33 FINEST line.LineConnection|tac-75: connection closed from 127.0.0.1
+28/03 10:34:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:34:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:34:03 WARNING line.LineConnection|tac-76: 127.0.0.1 closed connection
+28/03 10:34:03 FINEST line.LineConnection|tac-76: connection closed from 127.0.0.1
+28/03 10:34:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:34:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:34:33 WARNING line.LineConnection|tac-77: 127.0.0.1 closed connection
+28/03 10:34:33 FINEST line.LineConnection|tac-77: connection closed from 127.0.0.1
+28/03 10:35:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:35:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:35:03 WARNING line.LineConnection|tac-78: 127.0.0.1 closed connection
+28/03 10:35:03 FINEST line.LineConnection|tac-78: connection closed from 127.0.0.1
+28/03 10:35:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:35:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:35:33 WARNING line.LineConnection|tac-79: 127.0.0.1 closed connection
+28/03 10:35:33 FINEST line.LineConnection|tac-79: connection closed from 127.0.0.1
+28/03 10:36:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:36:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:36:03 WARNING line.LineConnection|tac-80: 127.0.0.1 closed connection
+28/03 10:36:03 FINEST line.LineConnection|tac-80: connection closed from 127.0.0.1
+28/03 10:36:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:36:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:36:33 WARNING line.LineConnection|tac-81: 127.0.0.1 closed connection
+28/03 10:36:33 FINEST line.LineConnection|tac-81: connection closed from 127.0.0.1
+28/03 10:37:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:37:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:37:03 WARNING line.LineConnection|tac-82: 127.0.0.1 closed connection
+28/03 10:37:03 FINEST line.LineConnection|tac-82: connection closed from 127.0.0.1
+28/03 10:37:33 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:37:33 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:37:33 WARNING line.LineConnection|tac-83: 127.0.0.1 closed connection
+28/03 10:37:33 FINEST line.LineConnection|tac-83: connection closed from 127.0.0.1
+28/03 10:38:03 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:38:03 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:38:03 WARNING line.LineConnection|tac-84: 127.0.0.1 closed connection
+28/03 10:38:03 FINEST line.LineConnection|tac-84: connection closed from 127.0.0.1
+28/03 10:38:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:38:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:38:34 WARNING line.LineConnection|tac-85: 127.0.0.1 closed connection
+28/03 10:38:34 FINEST line.LineConnection|tac-85: connection closed from 127.0.0.1
+28/03 10:39:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:39:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:39:04 WARNING line.LineConnection|tac-86: 127.0.0.1 closed connection
+28/03 10:39:04 FINEST line.LineConnection|tac-86: connection closed from 127.0.0.1
+28/03 10:39:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:39:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:39:34 WARNING line.LineConnection|tac-87: 127.0.0.1 closed connection
+28/03 10:39:34 FINEST line.LineConnection|tac-87: connection closed from 127.0.0.1
+28/03 10:40:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:40:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:40:04 WARNING line.LineConnection|tac-88: 127.0.0.1 closed connection
+28/03 10:40:04 FINEST line.LineConnection|tac-88: connection closed from 127.0.0.1
+28/03 10:40:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:40:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:40:34 SEVERE line.LineConnection|tac-89: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:40:34 WARNING line.LineConnection|tac-89: 127.0.0.1 closed connection
+28/03 10:40:34 FINEST line.LineConnection|tac-89: connection closed from 127.0.0.1
+28/03 10:41:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:41:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:41:04 WARNING line.LineConnection|tac-90: 127.0.0.1 closed connection
+28/03 10:41:04 FINEST line.LineConnection|tac-90: connection closed from 127.0.0.1
+28/03 10:41:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:41:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:41:34 SEVERE line.LineConnection|tac-91: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:41:34 WARNING line.LineConnection|tac-91: 127.0.0.1 closed connection
+28/03 10:41:34 FINEST line.LineConnection|tac-91: connection closed from 127.0.0.1
+28/03 10:42:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:42:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:42:04 SEVERE line.LineConnection|tac-92: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:42:04 WARNING line.LineConnection|tac-92: 127.0.0.1 closed connection
+28/03 10:42:04 FINEST line.LineConnection|tac-92: connection closed from 127.0.0.1
+28/03 10:42:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:42:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:42:34 WARNING line.LineConnection|tac-93: 127.0.0.1 closed connection
+28/03 10:42:34 FINEST line.LineConnection|tac-93: connection closed from 127.0.0.1
+28/03 10:43:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:43:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:43:04 WARNING line.LineConnection|tac-94: 127.0.0.1 closed connection
+28/03 10:43:04 FINEST line.LineConnection|tac-94: connection closed from 127.0.0.1
+28/03 10:43:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:43:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:43:34 WARNING line.LineConnection|tac-95: 127.0.0.1 closed connection
+28/03 10:43:34 FINEST line.LineConnection|tac-95: connection closed from 127.0.0.1
+28/03 10:44:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:44:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:44:04 WARNING line.LineConnection|tac-96: 127.0.0.1 closed connection
+28/03 10:44:04 FINEST line.LineConnection|tac-96: connection closed from 127.0.0.1
+28/03 10:44:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:44:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:44:34 WARNING line.LineConnection|tac-97: 127.0.0.1 closed connection
+28/03 10:44:34 FINEST line.LineConnection|tac-97: connection closed from 127.0.0.1
+28/03 10:45:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:45:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:45:04 WARNING line.LineConnection|tac-98: 127.0.0.1 closed connection
+28/03 10:45:04 FINEST line.LineConnection|tac-98: connection closed from 127.0.0.1
+28/03 10:45:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:45:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:45:34 WARNING line.LineConnection|tac-99: 127.0.0.1 closed connection
+28/03 10:45:34 FINEST line.LineConnection|tac-99: connection closed from 127.0.0.1
+28/03 10:46:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:46:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:46:04 WARNING line.LineConnection|tac-100: 127.0.0.1 closed connection
+28/03 10:46:04 FINEST line.LineConnection|tac-100: connection closed from 127.0.0.1
+28/03 10:46:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:46:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:46:34 WARNING line.LineConnection|tac-101: 127.0.0.1 closed connection
+28/03 10:46:34 FINEST line.LineConnection|tac-101: connection closed from 127.0.0.1
+28/03 10:47:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:47:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:47:04 WARNING line.LineConnection|tac-102: 127.0.0.1 closed connection
+28/03 10:47:04 FINEST line.LineConnection|tac-102: connection closed from 127.0.0.1
+28/03 10:47:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:47:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:47:34 WARNING line.LineConnection|tac-103: 127.0.0.1 closed connection
+28/03 10:47:34 FINEST line.LineConnection|tac-103: connection closed from 127.0.0.1
+28/03 10:48:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:48:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:48:04 WARNING line.LineConnection|tac-104: 127.0.0.1 closed connection
+28/03 10:48:04 FINEST line.LineConnection|tac-104: connection closed from 127.0.0.1
+28/03 10:48:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:48:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:48:34 WARNING line.LineConnection|tac-105: 127.0.0.1 closed connection
+28/03 10:48:34 FINEST line.LineConnection|tac-105: connection closed from 127.0.0.1
+28/03 10:49:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:49:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:49:04 WARNING line.LineConnection|tac-106: 127.0.0.1 closed connection
+28/03 10:49:04 FINEST line.LineConnection|tac-106: connection closed from 127.0.0.1
+28/03 10:49:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:49:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:49:34 WARNING line.LineConnection|tac-107: 127.0.0.1 closed connection
+28/03 10:49:34 FINEST line.LineConnection|tac-107: connection closed from 127.0.0.1
+28/03 10:50:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:50:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:50:04 SEVERE line.LineConnection|tac-108: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 10:50:04 WARNING line.LineConnection|tac-108: 127.0.0.1 closed connection
+28/03 10:50:04 FINEST line.LineConnection|tac-108: connection closed from 127.0.0.1
+28/03 10:50:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:50:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:50:34 WARNING line.LineConnection|tac-109: 127.0.0.1 closed connection
+28/03 10:50:34 FINEST line.LineConnection|tac-109: connection closed from 127.0.0.1
+28/03 10:51:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:51:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:51:04 WARNING line.LineConnection|tac-110: 127.0.0.1 closed connection
+28/03 10:51:04 FINEST line.LineConnection|tac-110: connection closed from 127.0.0.1
+28/03 10:51:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:51:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:51:34 WARNING line.LineConnection|tac-111: 127.0.0.1 closed connection
+28/03 10:51:34 FINEST line.LineConnection|tac-111: connection closed from 127.0.0.1
+28/03 10:52:14 SEVERE is.ISTimerTask|forcing reconnection to the server after 40 seconds
+28/03 10:52:14 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:52:14 WARNING line.LineConnection|tac-112: 127.0.0.1 closed connection
+28/03 10:52:14 FINEST line.LineConnection|tac-112: connection closed from 127.0.0.1
+28/03 10:52:44 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:52:44 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:52:44 WARNING line.LineConnection|tac-113: 127.0.0.1 closed connection
+28/03 10:52:44 FINEST line.LineConnection|tac-113: connection closed from 127.0.0.1
+28/03 10:53:14 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:53:14 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:53:14 WARNING line.LineConnection|tac-114: 127.0.0.1 closed connection
+28/03 10:53:14 FINEST line.LineConnection|tac-114: connection closed from 127.0.0.1
+28/03 10:53:44 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:53:44 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:53:44 WARNING line.LineConnection|tac-115: 127.0.0.1 closed connection
+28/03 10:53:44 FINEST line.LineConnection|tac-115: connection closed from 127.0.0.1
+28/03 10:54:14 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:54:14 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:54:14 WARNING line.LineConnection|tac-116: 127.0.0.1 closed connection
+28/03 10:54:14 FINEST line.LineConnection|tac-116: connection closed from 127.0.0.1
+28/03 10:54:44 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 10:54:44 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 10:54:44 WARNING line.LineConnection|tac-117: 127.0.0.1 closed connection
+28/03 10:54:44 FINEST line.LineConnection|tac-117: connection closed from 127.0.0.1
+28/03 11:20:45 SEVERE is.ISTimerTask|forcing reconnection to the server after 1560 seconds
+28/03 11:20:45 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:20:45 WARNING line.LineConnection|tac-118: 127.0.0.1 closed connection
+28/03 11:20:45 FINEST line.LineConnection|tac-118: connection closed from 127.0.0.1
+28/03 11:45:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 1489 seconds
+28/03 11:45:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:45:34 WARNING line.LineConnection|tac-119: 127.0.0.1 closed connection
+28/03 11:45:34 FINEST line.LineConnection|tac-119: connection closed from 127.0.0.1
+28/03 11:46:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:46:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:46:04 WARNING line.LineConnection|tac-120: 127.0.0.1 closed connection
+28/03 11:46:04 FINEST line.LineConnection|tac-120: connection closed from 127.0.0.1
+28/03 11:46:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:46:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:46:34 WARNING line.LineConnection|tac-121: 127.0.0.1 closed connection
+28/03 11:46:34 FINEST line.LineConnection|tac-121: connection closed from 127.0.0.1
+28/03 11:47:04 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:47:04 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:47:04 WARNING line.LineConnection|tac-122: 127.0.0.1 closed connection
+28/03 11:47:04 FINEST line.LineConnection|tac-122: connection closed from 127.0.0.1
+28/03 11:47:34 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:47:34 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:47:34 WARNING line.LineConnection|tac-123: 127.0.0.1 closed connection
+28/03 11:47:34 FINEST line.LineConnection|tac-123: connection closed from 127.0.0.1
+28/03 11:51:50 SEVERE is.ISTimerTask|forcing reconnection to the server after 256 seconds
+28/03 11:51:50 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:51:50 WARNING line.LineConnection|tac-124: 127.0.0.1 closed connection
+28/03 11:51:50 FINEST line.LineConnection|tac-124: connection closed from 127.0.0.1
+28/03 11:52:20 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:52:20 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:52:21 WARNING line.LineConnection|tac-125: 127.0.0.1 closed connection
+28/03 11:52:21 FINEST line.LineConnection|tac-125: connection closed from 127.0.0.1
+28/03 11:53:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 39 seconds
+28/03 11:53:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:53:00 WARNING line.LineConnection|tac-126: 127.0.0.1 closed connection
+28/03 11:53:00 FINEST line.LineConnection|tac-126: connection closed from 127.0.0.1
+28/03 11:53:31 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:53:31 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:53:31 WARNING line.LineConnection|tac-127: 127.0.0.1 closed connection
+28/03 11:53:31 FINEST line.LineConnection|tac-127: connection closed from 127.0.0.1
+28/03 11:54:01 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:54:01 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:54:01 WARNING line.LineConnection|tac-128: 127.0.0.1 closed connection
+28/03 11:54:01 FINEST line.LineConnection|tac-128: connection closed from 127.0.0.1
+28/03 11:54:41 SEVERE is.ISTimerTask|forcing reconnection to the server after 40 seconds
+28/03 11:54:41 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:54:41 WARNING line.LineConnection|tac-129: 127.0.0.1 closed connection
+28/03 11:54:41 FINEST line.LineConnection|tac-129: connection closed from 127.0.0.1
+28/03 11:55:11 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:55:11 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:55:11 WARNING line.LineConnection|tac-130: 127.0.0.1 closed connection
+28/03 11:55:11 FINEST line.LineConnection|tac-130: connection closed from 127.0.0.1
+28/03 11:55:51 SEVERE is.ISTimerTask|forcing reconnection to the server after 39 seconds
+28/03 11:55:51 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:55:51 WARNING line.LineConnection|tac-131: 127.0.0.1 closed connection
+28/03 11:55:51 FINEST line.LineConnection|tac-131: connection closed from 127.0.0.1
+28/03 11:56:21 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:56:21 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:56:21 WARNING line.LineConnection|tac-132: 127.0.0.1 closed connection
+28/03 11:56:21 FINEST line.LineConnection|tac-132: connection closed from 127.0.0.1
+28/03 11:56:51 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:56:51 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:56:51 WARNING line.LineConnection|tac-133: 127.0.0.1 closed connection
+28/03 11:56:51 FINEST line.LineConnection|tac-133: connection closed from 127.0.0.1
+28/03 11:57:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 34 seconds
+28/03 11:57:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:57:25 WARNING line.LineConnection|tac-134: 127.0.0.1 closed connection
+28/03 11:57:25 FINEST line.LineConnection|tac-134: connection closed from 127.0.0.1
+28/03 11:57:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:57:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:57:55 WARNING line.LineConnection|tac-135: 127.0.0.1 closed connection
+28/03 11:57:55 FINEST line.LineConnection|tac-135: connection closed from 127.0.0.1
+28/03 11:58:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:58:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:58:25 WARNING line.LineConnection|tac-136: 127.0.0.1 closed connection
+28/03 11:58:25 FINEST line.LineConnection|tac-136: connection closed from 127.0.0.1
+28/03 11:58:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:58:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:58:55 WARNING line.LineConnection|tac-137: 127.0.0.1 closed connection
+28/03 11:58:55 FINEST line.LineConnection|tac-137: connection closed from 127.0.0.1
+28/03 11:59:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:59:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:59:25 WARNING line.LineConnection|tac-138: 127.0.0.1 closed connection
+28/03 11:59:25 FINEST line.LineConnection|tac-138: connection closed from 127.0.0.1
+28/03 11:59:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 11:59:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 11:59:55 WARNING line.LineConnection|tac-139: 127.0.0.1 closed connection
+28/03 11:59:55 FINEST line.LineConnection|tac-139: connection closed from 127.0.0.1
+28/03 12:14:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 899 seconds
+28/03 12:14:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:14:55 WARNING line.LineConnection|tac-140: 127.0.0.1 closed connection
+28/03 12:14:55 FINEST line.LineConnection|tac-140: connection closed from 127.0.0.1
+28/03 12:15:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:15:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:15:25 WARNING line.LineConnection|tac-141: 127.0.0.1 closed connection
+28/03 12:15:25 FINEST line.LineConnection|tac-141: connection closed from 127.0.0.1
+28/03 12:15:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:15:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:15:55 SEVERE line.LineConnection|tac-142: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/03 12:15:55 WARNING line.LineConnection|tac-142: 127.0.0.1 closed connection
+28/03 12:15:55 FINEST line.LineConnection|tac-142: connection closed from 127.0.0.1
+28/03 12:16:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:16:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:16:25 WARNING line.LineConnection|tac-143: 127.0.0.1 closed connection
+28/03 12:16:25 FINEST line.LineConnection|tac-143: connection closed from 127.0.0.1
+28/03 12:16:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:16:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:16:55 WARNING line.LineConnection|tac-144: 127.0.0.1 closed connection
+28/03 12:16:55 FINEST line.LineConnection|tac-144: connection closed from 127.0.0.1
+28/03 12:17:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:17:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:17:25 WARNING line.LineConnection|tac-145: 127.0.0.1 closed connection
+28/03 12:17:25 FINEST line.LineConnection|tac-145: connection closed from 127.0.0.1
+28/03 12:17:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:17:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:17:55 WARNING line.LineConnection|tac-146: 127.0.0.1 closed connection
+28/03 12:17:55 FINEST line.LineConnection|tac-146: connection closed from 127.0.0.1
+28/03 12:18:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:18:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:18:25 WARNING line.LineConnection|tac-147: 127.0.0.1 closed connection
+28/03 12:18:25 FINEST line.LineConnection|tac-147: connection closed from 127.0.0.1
+28/03 12:18:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:18:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:18:55 WARNING line.LineConnection|tac-148: 127.0.0.1 closed connection
+28/03 12:18:55 FINEST line.LineConnection|tac-148: connection closed from 127.0.0.1
+28/03 12:19:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:19:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:19:25 WARNING line.LineConnection|tac-149: 127.0.0.1 closed connection
+28/03 12:19:25 FINEST line.LineConnection|tac-149: connection closed from 127.0.0.1
+28/03 12:19:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:19:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:19:55 WARNING line.LineConnection|tac-150: 127.0.0.1 closed connection
+28/03 12:19:55 FINEST line.LineConnection|tac-150: connection closed from 127.0.0.1
+28/03 12:20:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:20:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:20:25 WARNING line.LineConnection|tac-151: 127.0.0.1 closed connection
+28/03 12:20:25 FINEST line.LineConnection|tac-151: connection closed from 127.0.0.1
+28/03 12:20:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:20:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:20:55 WARNING line.LineConnection|tac-152: 127.0.0.1 closed connection
+28/03 12:20:55 FINEST line.LineConnection|tac-152: connection closed from 127.0.0.1
+28/03 12:21:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:21:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:21:25 WARNING line.LineConnection|tac-153: 127.0.0.1 closed connection
+28/03 12:21:25 FINEST line.LineConnection|tac-153: connection closed from 127.0.0.1
+28/03 12:21:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:21:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:21:55 WARNING line.LineConnection|tac-154: 127.0.0.1 closed connection
+28/03 12:21:55 FINEST line.LineConnection|tac-154: connection closed from 127.0.0.1
+28/03 12:22:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:22:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:22:25 WARNING line.LineConnection|tac-155: 127.0.0.1 closed connection
+28/03 12:22:25 FINEST line.LineConnection|tac-155: connection closed from 127.0.0.1
+28/03 12:22:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:22:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:22:55 WARNING line.LineConnection|tac-156: 127.0.0.1 closed connection
+28/03 12:22:55 FINEST line.LineConnection|tac-156: connection closed from 127.0.0.1
+28/03 12:23:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:23:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:23:25 WARNING line.LineConnection|tac-157: 127.0.0.1 closed connection
+28/03 12:23:25 FINEST line.LineConnection|tac-157: connection closed from 127.0.0.1
+28/03 12:23:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:23:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:23:55 WARNING line.LineConnection|tac-158: 127.0.0.1 closed connection
+28/03 12:23:55 FINEST line.LineConnection|tac-158: connection closed from 127.0.0.1
+28/03 12:24:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:24:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:24:25 WARNING line.LineConnection|tac-159: 127.0.0.1 closed connection
+28/03 12:24:25 FINEST line.LineConnection|tac-159: connection closed from 127.0.0.1
+28/03 12:24:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:24:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:24:55 WARNING line.LineConnection|tac-160: 127.0.0.1 closed connection
+28/03 12:24:55 FINEST line.LineConnection|tac-160: connection closed from 127.0.0.1
+28/03 12:25:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:25:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:25:25 WARNING line.LineConnection|tac-161: 127.0.0.1 closed connection
+28/03 12:25:25 FINEST line.LineConnection|tac-161: connection closed from 127.0.0.1
+28/03 12:25:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:25:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:25:55 WARNING line.LineConnection|tac-162: 127.0.0.1 closed connection
+28/03 12:25:55 FINEST line.LineConnection|tac-162: connection closed from 127.0.0.1
+28/03 12:26:25 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:26:25 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:26:25 WARNING line.LineConnection|tac-163: 127.0.0.1 closed connection
+28/03 12:26:25 FINEST line.LineConnection|tac-163: connection closed from 127.0.0.1
+28/03 12:26:55 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/03 12:26:55 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/03 12:26:55 WARNING line.LineConnection|tac-164: 127.0.0.1 closed connection
+28/03 12:26:55 FINEST line.LineConnection|tac-164: connection closed from 127.0.0.1

@@ -1,0 +1,37 @@
+16/03 23:23:17 INFO server.LineServer|info server started at *:4039
+16/03 23:23:17 INFO server.TACServer|waiting for Info Server to start...
+16/03 23:23:29 FINE server.LineServer|new info connection: info-1
+16/03 23:23:29 INFO server.InfoServer|new Java Info server connection
+16/03 23:23:29 INFO server.TACServer|tac server started at *:6500
+16/03 23:23:58 FINE server.TACServer|new agent: tac-1
+16/03 23:23:58 FINEST server.TACConnection|XML_IN(tac-1): <auth><userName>admin</userName><userPW>admin</userPW></auth>
+16/03 23:23:58 FINEST server.TACConnection|XML_OUT(admin@tac-1): <auth><userID>11</userID><commandStatus>0</commandStatus></auth>
+16/03 23:23:58 FINEST server.TACConnection|XML_IN(admin@tac-1): <serverTime></serverTime>
+16/03 23:23:58 FINEST server.TACConnection|XML_OUT(admin@tac-1): <serverTime><time>1489706638</time><commandStatus>0</commandStatus></serverTime>
+16/03 23:23:58 FINEST server.TACConnection|XML_IN(admin@tac-1): <nextGame></nextGame>
+16/03 23:23:58 FINEST server.TACConnection|XML_OUT(admin@tac-1): <nextGame><gameID>14</gameID><startTime>1489706700</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+16/03 23:23:58 FINEST server.TACConnection|XML_IN(admin@tac-1): <quit></quit>
+16/03 23:23:58 FINEST inet.InetConnection|admin@tac-1: connection closed from 127.0.0.1
+16/03 23:23:58 FINEST server.TACConnection|XML_OUT(admin@tac-1): <quit><commandStatus>0</commandStatus></quit>
+16/03 23:23:58 SEVERE inet.InetConnection|admin@tac-1: could not send <quit><commandStatus>0</commandStatus></quit>
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at se.sics.tac.server.TACConnection.doSendMessage(TACConnection.java:176)
+	at se.sics.isl.inet.InetConnection.sendMessage(InetConnection.java:262)
+	at se.sics.tac.server.TACMessage.doReply(TACMessage.java:277)
+	at se.sics.tac.server.TACConnection.doDeliverMessage(TACConnection.java:167)
+	at se.sics.isl.inet.InetConnection.deliverMessage(InetConnection.java:293)
+	at se.sics.tac.server.TACConnection.doReadMessages(TACConnection.java:132)
+	at se.sics.isl.inet.InetConnection$MessageReader.run(InetConnection.java:417)
+16/03 23:25:00 FINE server.InfoManager|Entering log for game 14
+************************************************************
+* Entering log for game 14
+************************************************************
+
+

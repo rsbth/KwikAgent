@@ -1,0 +1,29 @@
+16/03 09:17:25 INFO server.LineServer|info server started at *:4039
+16/03 09:17:25 INFO server.TACServer|waiting for Info Server to start...
+16/03 09:17:28 FINE server.LineServer|new info connection: info-1
+16/03 09:17:28 INFO server.InfoServer|new Java Info server connection
+16/03 09:17:28 INFO server.TACServer|tac server started at *:6500
+16/03 09:17:37 FINE server.TACServer|new agent: tac-1
+16/03 09:17:37 FINEST server.TACConnection|XML_IN(tac-1): <auth><userName>admin</userName><userPW>admin</userPW></auth>
+16/03 09:17:37 FINEST server.TACConnection|XML_OUT(admin@tac-1): <auth><userID>11</userID><commandStatus>0</commandStatus></auth>
+16/03 09:17:37 FINEST server.TACConnection|XML_IN(admin@tac-1): <serverTime></serverTime>
+16/03 09:17:37 FINEST server.TACConnection|XML_OUT(admin@tac-1): <serverTime><time>1489655857</time><commandStatus>0</commandStatus></serverTime>
+16/03 09:17:37 FINEST server.TACConnection|XML_IN(admin@tac-1): <nextGame></nextGame>
+16/03 09:17:37 FINEST server.TACConnection|XML_OUT(admin@tac-1): <nextGame><gameID>9</gameID><startTime>1489655940</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+16/03 09:17:37 FINEST server.TACConnection|XML_IN(admin@tac-1): <quit></quit>
+16/03 09:17:37 FINEST server.TACConnection|XML_OUT(admin@tac-1): <quit><commandStatus>0</commandStatus></quit>
+16/03 09:17:37 FINEST inet.InetConnection|admin@tac-1: connection closed from 127.0.0.1
+16/03 09:19:00 FINE server.InfoManager|Entering log for game 9
+************************************************************
+* Entering log for game 9
+************************************************************
+
+
+16/03 09:28:01 INFO server.InfoServer|Game 9 have finished calculating score
+16/03 09:28:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>1086</earliestTransID></transIDs>
+16/03 09:28:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 09:28:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <nextGame><stat.avgResponseTime>33.0</stat.avgResponseTime><stat.messageCount>1074</stat.messageCount></nextGame>
+16/03 09:28:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <nextGame><gameID>10</gameID><startTime>1489656600</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+16/03 09:28:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <quit></quit>
+16/03 09:28:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <quit><commandStatus>0</commandStatus></quit>
+16/03 09:28:01 FINEST inet.InetConnection|admin@tac-2: connection closed from 127.0.0.1

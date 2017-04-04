@@ -1,0 +1,7 @@
+16/03 10:13:40 FINE is.InfoServer|Using game path: /Users/sara16/Downloads/tacserver-1/public_html/history
+16/03 10:13:40 INFO is.GameArchiver|adding game 7 to be generated
+16/03 10:13:40 INFO is.AppletServer|viewer server started at *:4041
+16/03 09:13:40 SEVERE is.InfoServer|detected existing coming game 7 (7) prior to current time
+16/03 09:14:01 FINE is.InfoServer|new coming game 8 (gameid=8,tacClassic)
+16/03 09:14:10 FINE is.GameArchiver|Reading game 7 from applet7.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/7/applet.log.gz
+16/03 09:14:10 SEVERE is.GameArchiver|game 7 was not (yet?) finished!

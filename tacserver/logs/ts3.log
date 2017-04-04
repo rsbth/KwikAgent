@@ -1,0 +1,64 @@
+16/03 23:27:08 INFO server.LineServer|info server started at *:4039
+16/03 23:27:08 INFO server.TACServer|waiting for Info Server to start...
+16/03 23:27:11 FINE server.LineServer|new info connection: info-1
+16/03 23:27:11 INFO server.InfoServer|new Java Info server connection
+16/03 23:27:11 INFO server.TACServer|tac server started at *:6500
+16/03 23:27:17 FINE server.TACServer|new agent: tac-1
+16/03 23:27:17 FINEST server.TACConnection|XML_IN(tac-1): <auth><userName>admin</userName><userPW>admin</userPW></auth>
+16/03 23:27:17 FINEST server.TACConnection|XML_OUT(admin@tac-1): <auth><userID>11</userID><commandStatus>0</commandStatus></auth>
+16/03 23:27:17 FINEST server.TACConnection|XML_IN(admin@tac-1): <serverTime></serverTime>
+16/03 23:27:17 FINEST server.TACConnection|XML_OUT(admin@tac-1): <serverTime><time>1489706837</time><commandStatus>0</commandStatus></serverTime>
+16/03 23:27:17 FINEST server.TACConnection|XML_IN(admin@tac-1): <nextGame></nextGame>
+16/03 23:27:17 FINEST server.TACConnection|XML_OUT(admin@tac-1): <nextGame><gameID>15</gameID><startTime>1489706940</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+16/03 23:27:17 FINEST server.TACConnection|XML_IN(admin@tac-1): <quit></quit>
+16/03 23:27:17 FINEST inet.InetConnection|admin@tac-1: connection closed from 127.0.0.1
+16/03 23:27:17 FINEST server.TACConnection|XML_OUT(admin@tac-1): <quit><commandStatus>0</commandStatus></quit>
+16/03 23:29:00 FINE server.InfoManager|Entering log for game 15
+************************************************************
+* Entering log for game 15
+************************************************************
+
+
+16/03 23:38:00 FINEST server.AgentManager|AgentManager AgentManager@15 is finished
+16/03 23:38:00 INFO server.InfoServer|Game 15 have finished calculating score
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>241</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>137.6441</lastAskPrice><lastBidPrice>112.6872</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>101.4688</lastClearPrice><lastClearTime>1489707370</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>242</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>61.1505</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>80.2079</lastClearPrice><lastClearTime>1489707310</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>243</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>75.5317</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>73.9746</lastClearPrice><lastClearTime>1489707370</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>244</auctionID><bidID>9123</bidID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>114.9453</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>68.2008</lastClearPrice><lastClearTime>1489707430</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>245</auctionID><bidID>9124</bidID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>61.6460</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>246</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>89.4416</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>114.9445</lastClearPrice><lastClearTime>1489707450</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>247</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>55.5911</lastAskPrice><lastBidPrice>55.4778</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>62.6630</lastClearPrice><lastClearTime>1489707370</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>248</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>54.9394</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>74.3905</lastClearPrice><lastClearTime>1489707310</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>249</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>56.1432</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>82.9797</lastClearPrice><lastClearTime>1489707181</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>250</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>54.9322</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>83.4390</lastClearPrice><lastClearTime>1489707190</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>251</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>57.2164</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>75.8095</lastClearPrice><lastClearTime>1489707310</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <getQuote><auctionID>252</auctionID></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <getQuote><lastAskPrice>55.6555</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1489707480</lastQuoteTime><nextQuoteTime>1489707511</nextQuoteTime><lastClearPrice>82.0337</lastClearPrice><lastClearTime>1489707251</lastClearTime><finalClearTime>1489707480</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>1709</earliestTransID></transIDs>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>244</auctionID><bidString>((-1 109.93433))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:38:01 WARNING server.TACServer|replying status auction closed to message submitBid from admin@tac-2
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><commandStatus>12</commandStatus></submitBid>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <submitBid><auctionID>245</auctionID><bidString>((-4 109.9335))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+16/03 23:38:01 WARNING server.TACServer|replying status auction closed to message submitBid from admin@tac-2
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <submitBid><commandStatus>12</commandStatus></submitBid>
+16/03 23:38:01 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>1709</earliestTransID></transIDs>
+16/03 23:38:01 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:38:02 FINEST server.TACConnection|XML_IN(admin@tac-2): <transIDs><earliestTransID>1709</earliestTransID></transIDs>
+16/03 23:38:02 FINEST server.TACConnection|XML_OUT(admin@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+16/03 23:38:02 FINEST server.TACConnection|XML_IN(admin@tac-2): <nextGame><stat.avgResponseTime>25.0</stat.avgResponseTime><stat.messageCount>1068</stat.messageCount></nextGame>
+16/03 23:38:02 FINEST server.TACConnection|XML_OUT(admin@tac-2): <nextGame><gameID>16</gameID><startTime>1489707600</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+16/03 23:38:02 FINEST server.TACConnection|XML_IN(admin@tac-2): <quit></quit>
+16/03 23:38:02 FINEST server.TACConnection|XML_OUT(admin@tac-2): <quit><commandStatus>0</commandStatus></quit>
+16/03 23:38:02 FINEST inet.InetConnection|admin@tac-2: connection closed from 127.0.0.1

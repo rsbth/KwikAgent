@@ -1,0 +1,15 @@
+17/03 00:23:29 FINE is.InfoServer|Using game path: /Users/sara16/Downloads/tacserver-1/public_html/history
+17/03 00:23:29 INFO is.GameArchiver|adding game 7 to be generated
+17/03 00:23:29 INFO is.GameArchiver|adding game 8 to be generated
+17/03 00:23:29 INFO is.GameArchiver|adding game 13 to be generated
+17/03 00:23:29 INFO is.AppletServer|viewer server started at *:4041
+16/03 23:23:58 FINE is.InfoServer|new coming game 14 (gameid=14,tacClassic)
+16/03 23:23:58 FINE is.GameArchiver|Reading game 7 from applet7.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/7/applet.log.gz
+16/03 23:23:58 SEVERE is.GameArchiver|game 7 was not (yet?) finished!
+16/03 23:23:58 FINE is.GameArchiver|Reading game 8 from applet8.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/8/applet.log.gz
+16/03 23:23:58 SEVERE is.GameArchiver|game 8 was not (yet?) finished!
+16/03 23:23:58 FINE is.GameArchiver|Reading game 13 from applet13.log copying to /Users/sara16/Downloads/tacserver-1/public_html/history/13/applet.log.gz
+16/03 23:23:58 SEVERE is.GameArchiver|game 13 was not (yet?) finished!
+16/03 23:24:59 FINE is.TACStore|>>> Checking competition for game: 14 (14)
+16/03 23:26:00 WARNING line.LineConnection|tac-1: 127.0.0.1 closed connection
+16/03 23:26:00 FINEST line.LineConnection|tac-1: connection closed from 127.0.0.1

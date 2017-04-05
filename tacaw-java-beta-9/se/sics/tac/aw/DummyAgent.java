@@ -132,6 +132,7 @@ import com.mongodb.*;
 import java.util.Arrays;
 
 public class DummyAgent extends AgentImpl {
+  private double avg_ent_Client_pref = 0;
     static MongoCredential credential = MongoCredential.createCredential("scott","tacLog","tiger".toCharArray());
     static MongoClient client = new MongoClient(new ServerAddress("127.0.0.1",27017), Arrays.asList(credential));
     static DB db = client.getDB("tacLog");
@@ -149,37 +150,38 @@ public class DummyAgent extends AgentImpl {
   }
 
   public void quoteUpdated(Quote quote) {
-      BasicDBObject insertData =new BasicDBObject();
+      //BasicDBObject insertData =new BasicDBObject();
       int auction = quote.getAuction();
-      insertData.put("auction",auction);
+      //insertData.put("auction",auction);
     int auctionCategory = agent.getAuctionCategory(auction);
-       insertData.put("auction_categ",auctionCategory);
-      // insertData.put("Categ_hotel_is",TACAgent.CAT_HOTEL);
-      // insertData.put("Categ_hotel_is",TACAgent.CAT_FLIGHT);
-      // insertData.put("Categ_hotel_is",TACAgent.CAT_ENTERTAINMENT);
-    if (auctionCategory == TACAgent.CAT_HOTEL) {
+       /*insertData.put("auction_categ",auctionCategory);
+       insertData.put("Categ_hotel_is",TACAgent.CAT_HOTEL);
+       insertData.put("Categ_hotel_is",TACAgent.CAT_FLIGHT);
+       insertData.put("Categ_hotel_is",TACAgent.CAT_ENTERTAINMENT);
+    */
+       if (auctionCategory == TACAgent.CAT_HOTEL) {
       int alloc = agent.getAllocation(auction);
-      insertData.put("Allocation_Hotel",alloc);
+     /* insertData.put("Allocation_Hotel",alloc);
       insertData.put("Hotel_bef_all_hasqw_get_quote_getAskPrice",quote.getAskPrice());
       insertData.put("Hotel_bef_all_hasqw_get_quote_hasHQW_getBid_auction",quote.hasHQW(agent.getBid(auction)));
          insertData.put("Hotel_bef_all_hasqw_get_quote_getHQW",quote.getHQW());
          insertData.put("Hotel_bef_prices_auction",prices[auction]);
       insertData.put("Hotel_bef_all_GetOwn_auction", agent.getOwn(auction));
        insertData.put("bef_all_Agent_getTime",agent.getGameTime());
-
+    */
       if (alloc > 0 && quote.hasHQW(agent.getBid(auction)) &&
 	  quote.getHQW() < alloc) {
 
-	     insertData.put("Hotel_eft_all_hasqw_get_getBid_auction",agent.getBid(auction));
+	  /*   insertData.put("Hotel_eft_all_hasqw_get_getBid_auction",agent.getBid(auction));
 	     insertData.put("Hotel_eft_all_hasqw_get_quote_hasHQW_getBid_auction",quote.hasHQW(agent.getBid(auction)));
          insertData.put("Hotel_eft_all_hasqw_get_quote_getHQW",quote.getHQW());
-          Bid bid = new Bid(auction);
+      */    Bid bid = new Bid(auction);
 	// Can not own anything in hotel auctions...
 	prices[auction] = quote.getAskPrice() + 50;
-	insertData.put("Hotel_eft_getAskPrice",quote.getAskPrice());
+	/*insertData.put("Hotel_eft_getAskPrice",quote.getAskPrice());
 	insertData.put("Hotel eft_prices_auction",prices[auction]);
 	insertData.put("Hotel eft_all_GetOwn_auction", agent.getOwn(auction));
-	insertData.put("eft_all_Agent_getTime",agent.getGameTime());
+	insertData.put("eft_all_Agent_getTime",agent.getGameTime()); */
 	bid.addBidPoint(alloc, prices[auction]);
 	if (DEBUG) {
 	  log.finest("submitting bid with alloc="
@@ -190,18 +192,18 @@ public class DummyAgent extends AgentImpl {
       }
     } else if (auctionCategory == TACAgent.CAT_ENTERTAINMENT) {
       int alloc = agent.getAllocation(auction) - agent.getOwn(auction);
-      insertData.put("Ent_alloc", alloc);
+    /*  insertData.put("Ent_alloc", alloc);
       insertData.put("Ent_agent_get_alloc_auc",agent.getAllocation(auction));
       insertData.put("Ent_agent_get_own_auc",agent.getOwn(auction));
-      insertData.put("Auction",auction);
+      insertData.put("Auction",auction);*/
       if (alloc != 0) {
 	Bid bid = new Bid(auction);
 	if (alloc < 0){
 	  prices[auction] = 200f - (agent.getGameTime() * 120f) / 720000;
-    insertData.put("Ent_all_lt0_prices_AUCT",prices[auction]);}
+    //insertData.put("Ent_all_lt0_prices_AUCT",prices[auction]);}
 	else{
 	  prices[auction] = 50f + (agent.getGameTime() * 100f) / 720000;
-    insertData.put("Ent_all_ifntlt0_prices_AUCT",prices[auction]);}
+    //insertData.put("Ent_all_ifntlt0_prices_AUCT",prices[auction]);}
 	bid.addBidPoint(alloc, prices[auction]);
 	if (DEBUG) {
 	  log.finest("submitting bid with alloc="
@@ -213,7 +215,7 @@ public class DummyAgent extends AgentImpl {
     }else if(auctionCategory == TACAgent.CAT_FLIGHT){
 
     }
-    collection.insert(insertData);
+    //collection.insert(insertData);
   }
 
   public void quoteUpdated(int auctionCategory) {
@@ -252,75 +254,75 @@ public class DummyAgent extends AgentImpl {
   }
 
   public void auctionClosed(int auction) {
-    BasicDBObject gameStats = new BasicDBObject();
+    /*BasicDBObject gameStats = new BasicDBObject();
     gameStats.put("message_type","auctionClosed");
     gameStats.put("auction", auction);
     gameStats.put("Elapsed_Gametime", agent.getGameTime());
-    gameStats.put("auction_no", agent.getAuctionNo());
+    gameStats.put("auction_no", agent.getAuctionNo());*/
     String pice_Str = "";
     for(int i=0;i<prices.length;i++){
       pice_Str += i+"="+prices[i] + " ";
     }
-    gameStats.put("prices", pice_Str);
+   // gameStats.put("prices", pice_Str);
     log.fine("*** Auction " + auction + " closed!");
-     collection.insert(gameStats);
+     //collection.insert(gameStats);
   }
 
   private void sendBids() {
     BasicDBObject bidsenderdb = new BasicDBObject();
     for (int i = 0, n = agent.getAuctionNo(); i < n; i++) {
-      bidsenderdb.put("message_type","fromSendBids");
+      //bidsenderdb.put("message_type","fromSendBids");
       double time_left_for_completion = agent.getGameTimeLeft();
-      bidsenderdb.put("time_left_for_completion",time_left_for_completion);
+      //bidsenderdb.put("time_left_for_completion",time_left_for_completion);
       int alloc = agent.getAllocation(i) - agent.getOwn(i);
-      bidsenderdb.put("agent_getallocationi",agent.getAllocation(i));
+      /*bidsenderdb.put("agent_getallocationi",agent.getAllocation(i));
       bidsenderdb.put("agent_getOwni",agent.getOwn(i));
       bidsenderdb.put("alloc",alloc);
-      collection.insert(bidsenderdb);
+      collection.insert(bidsenderdb);*/
 
-      BasicDBObject priceTracker = new BasicDBObject();
+      //BasicDBObject priceTracker = new BasicDBObject();
       float price = -1f;
       switch (agent.getAuctionCategory(i)) {
       case TACAgent.CAT_FLIGHT:
 	if (alloc > 0) {
 	  price = 1000;
-    priceTracker.put("message_from","Flight");
-    priceTracker.put("time_left_for_completion_f", agent.getGameTimeLeft());
+    //priceTracker.put("message_from","Flight");
+    //priceTracker.put("time_left_for_completion_f", agent.getGameTimeLeft());
 	}
 	break;
       case TACAgent.CAT_HOTEL:
 	if (alloc > 0) {
 	  price = 200;
 	  prices[i] = 200f;
-	priceTracker.put("message_from","Hotel");
-    priceTracker.put("time_left_for_completion_h", agent.getGameTimeLeft());
+ //	priceTracker.put("message_from","Hotel");
+  //  priceTracker.put("time_left_for_completion_h", agent.getGameTimeLeft());
   }
 	break;
       case TACAgent.CAT_ENTERTAINMENT:
 	if (alloc < 0) {
-	  price = 200;
-	  prices[i] = 200f;
-    priceTracker.put("time_left_for_completion_e", agent.getGameTimeLeft());
+	  price = 120;
+	  prices[i] = 120f;
+ //   priceTracker.put("time_left_for_completion_e", agent.getGameTimeLeft());
 	} else if (alloc > 0) {
 	  price = 50;
 	  prices[i] = 50f;
-    priceTracker.put("time_left_for_completion_e", agent.getGameTimeLeft());
+  // priceTracker.put("time_left_for_completion_e", agent.getGameTimeLeft());
 	}
 	break;
       default:
 	break;
       }
-      collection.insert(priceTracker);
+  //    collection.insert(priceTracker);
       if (price > 0) {
 	Bid bid = new Bid(i);
 	bid.addBidPoint(alloc, price);
-  BasicDBObject bidPointRecord = new BasicDBObject();
+  /*BasicDBObject bidPointRecord = new BasicDBObject();
   bidPointRecord.put("message_from", "BidPointAdd");
   bidPointRecord.put("alloc", alloc);
   bidPointRecord.put("price",price);
   bidPointRecord.put("allocation", agent.getAllocation(i));
   bidPointRecord.put("own",agent.getOwn(i));
-  collection.insert(bidPointRecord);
+  collection.insert(bidPointRecord); */
 	if (DEBUG) {
 	  log.finest("submitting bid with alloc=" + agent.getAllocation(i)
 		     + " own=" + agent.getOwn(i));
@@ -332,25 +334,25 @@ public class DummyAgent extends AgentImpl {
 
   private void calculateAllocation() {
     for (int i = 0; i < 8; i++) {
-      BasicDBObject allocCalc = new BasicDBObject();
+      //BasicDBObject allocCalc = new BasicDBObject();
       int inFlight = agent.getClientPreference(i, TACAgent.ARRIVAL);
-      allocCalc.put("InFlightPref_Of_"+i, inFlight );
+      //allocCalc.put("InFlightPref_Of_"+i, inFlight );
       int outFlight = agent.getClientPreference(i, TACAgent.DEPARTURE);
-      allocCalc.put("outFlightPref_of_"+ i, outFlight);
+      //allocCalc.put("outFlightPref_of_"+ i, outFlight);
       int hotel = agent.getClientPreference(i, TACAgent.HOTEL_VALUE);
-      allocCalc.put("hotelPrefValue_of_"+i,hotel);
+      //allocCalc.put("hotelPrefValue_of_"+i,hotel);
       int type;
 
       // Get the flight preferences auction and remember that we are
       // going to buy tickets for these days. (inflight=1, outflight=0)
       int auction = agent.getAuctionFor(TACAgent.CAT_FLIGHT,
 					TACAgent.TYPE_INFLIGHT, inFlight);
-         allocCalc.put("inFlight_auction", auction);
+        // allocCalc.put("inFlight_auction", auction);
       agent.setAllocation(auction, agent.getAllocation(auction) + 1);
 
       auction = agent.getAuctionFor(TACAgent.CAT_FLIGHT,
 				    TACAgent.TYPE_OUTFLIGHT, outFlight);
-               allocCalc.put("OutFlight_auction", auction);
+               //allocCalc.put("OutFlight_auction", auction);
 
       agent.setAllocation(auction, agent.getAllocation(auction) + 1);
 
@@ -391,15 +393,28 @@ public class DummyAgent extends AgentImpl {
   }
 
   private int nextEntType(int client, int lastType) {
+    //BasicDBObject clientPrefEnt = new BasicDBObject();
     int e1 = agent.getClientPreference(client, TACAgent.E1);
+    //clientPrefEnt.put("e1", e1);
     int e2 = agent.getClientPreference(client, TACAgent.E2);
+    //clientPrefEnt.put("e2",e2);
     int e3 = agent.getClientPreference(client, TACAgent.E3);
+    //clientPrefEnt.put("e3",e3);
+    //collection.insert(clientPrefEnt);
+    //Store in DB 
 
     // At least buy what each agent wants the most!!!
     if ((e1 > e2) && (e1 > e3) && lastType == -1)
       return TACAgent.TYPE_ALLIGATOR_WRESTLING;
+    else-if((e1<e2)&&(e1>e3))
+      return TACAgent.TYPE_MUSEUM;
+    else-if((e1<e2)&&(e1<e3))
+      return TACAgent.TYPE_ALLIGATOR_WRESTLING; 
     if ((e2 > e1) && (e2 > e3) && lastType == -1)
       return TACAgent.TYPE_AMUSEMENT;
+    else-if((e2<e1) && (e2>e3))
+      return TACAgent.
+    else-if(())
     if ((e3 > e1) && (e3 > e2) && lastType == -1)
       return TACAgent.TYPE_MUSEUM;
     return -1;
